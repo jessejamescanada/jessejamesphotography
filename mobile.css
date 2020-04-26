@@ -1,0 +1,247 @@
+
+
+/* 1199px */
+@media(max-width: 1199px){
+  .packages-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .packages-side{
+    margin-top: 0;
+  }
+  .services-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .services-container img{
+    width: auto;
+    height: auto;
+  }
+  .testimonial-content{
+    width: auto;
+  }
+  .testimonial{
+    flex-direction: column;
+  }
+  .testimonial-img-container{
+    margin-bottom: 15px;
+  }
+  .sticky{
+    position: relative;
+    padding: 20px 2px;
+  }
+}
+
+@media(max-width: 968px){
+  .services-container, .services-container .card{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin-top: 0px;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+  .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .about-content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .who-content-container{
+    margin-left: 0px;
+  }
+  .mobile-hide{
+    display: none;
+  }
+
+  .mobile-IMG{
+    display: block;
+  }
+  .packages-container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+  .ccForm{
+    width: auto;
+    /* padding: 0; */
+  }
+  .ccField-prepend input, .ccField-prepend textarea{
+    width: auto;
+  }
+}
+
+/* 500px */
+@media(max-width: 500px) {
+  body{
+    width: auto;
+  }
+
+  .top-btn{
+    padding: 5px;
+    margin: 0;
+    width: 75px;
+    opacity: 0.8;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px 40px;
+  }
+  /* .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: auto;
+  } */
+  .navbar .desktop-nav{
+    display: none;
+  }
+  .navbar .fullScreen-hide{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .navbar .fullScreen-hide a{
+    margin: 0px 8px;
+    color: #daad86;
+  }
+  .navbar li:last-child, .navbar li:first-child{
+    display: none;
+  }
+  .navbar li a{
+    margin: 0px 30px;
+    color: #cc0000;
+  }
+
+  .sticky{
+    position: relative;
+    padding: 20px 2px;
+  }
+  #showcase1 img{
+    height: 60vh;
+    width: auto;
+  }
+  .showcase-content{
+    width: 300px;
+  }
+  .about-container{
+    padding: 5px;
+    margin-top: 30px;
+  }
+  .about-container img{
+    display: none;
+  }
+  .who-content-container{
+    margin: 0;
+  }
+  .about-content{
+    width: auto;
+    padding: 10px;
+  }
+  .about-content h2{
+    text-align: center;
+  }
+  .about-content p{
+    text-align: left;
+    width: 100%;
+  }
+  .services-container, .services-container .card{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin-top: 0px;
+  }
+
+  .mobile-hide{
+    display: none;
+  }
+
+  .mobile-IMG{
+    display: block;
+  }
+
+  .services-container > *:first-child,
+ .services-container > *:nth-child(2),
+ .services-container > *:nth-child(3),
+ .services-container > *:last-child{
+   display: flex;
+   flex-direction: column;
+ }
+ .services-container .card img{
+   margin-top: 25px;
+   height: 250px;
+   width: auto;
+ }
+
+ .packages-container{
+   display: flex;
+   flex-direction: column;
+   width: auto;
+   padding: 0px;
+   background-color: none;
+   box-shadow: none;
+ }
+ .packages-side, .packages-middle{
+   margin-top: 0px;
+   margin-bottom: 5px;
+   border-radius: 0px;
+ }
+
+ #testimonials, .showcase4{
+   display: none;
+ }
+
+ .gallery-container{
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+   padding-top: 50px;
+ }
+ .slide img{
+   margin-bottom: 5px;
+ }
+
+ .showcase2 .showcase-container {
+   height: 100px
+ }
+ .showcase2 .showcase-content h3, .showcase3 .showcase-content h3, .showcase5 .showcase-content h3{
+   color: black;
+ }
+
+ .showcase2 img, .showcase3 img, .showcase5 img{
+   display: none;
+ }
+
+ .contact-container{
+   width: 50px;
+ }
+ .ccform{
+   padding: 0;
+   width: auto;
+ }
+ .ccField-prepend{
+   width: auto;
+ }
+ .ccField-prepend input, .ccField-prepend textarea{
+   width: auto;
+ }
+}
