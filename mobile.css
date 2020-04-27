@@ -224,7 +224,7 @@
    margin-bottom: 5px;
  }
 
- .showcase2 .showcase-container {
+ .showcase2 .showcase-container, .showcase3 .showcase-container{
    height: 100px
  }
  .showcase2 .showcase-content h3, .showcase3 .showcase-content h3, .showcase5 .showcase-content h3{
