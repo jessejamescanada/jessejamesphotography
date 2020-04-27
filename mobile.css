@@ -140,8 +140,11 @@
     height: 60vh;
     width: auto;
   }
+
   .showcase-content{
     width: 300px;
+    height: auto;
+    padding: 10px 0px;
   }
   .about-container{
     padding: 5px;
