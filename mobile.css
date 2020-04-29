@@ -146,6 +146,14 @@
     height: auto;
     padding: 10px 0px;
   }
+
+  .showcase-content h1{
+    font-size: 17px;
+  }
+
+  .showcase-content .typewriter{
+    font-size: 18px;
+  }
   .about-container{
     padding: 5px;
     margin-top: 30px;
