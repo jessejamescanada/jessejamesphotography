@@ -215,7 +215,14 @@ html {
 .who-content-container {
   margin-left: 50px;
 }
-
+.weddingLink{
+  text-decoration: none;
+  color: #333;
+}
+.weddingLink2{
+  color: #cc0000;
+  font-weight: 800;
+}
 .title-color{
   color: var(--btn-color);
 }
