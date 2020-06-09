@@ -34,6 +34,16 @@
     position: relative;
     padding: 20px 2px;
   }
+  .socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+    margin: 50px auto;
+  }
+
 }
 
 @media(max-width: 968px){
@@ -92,6 +102,11 @@
 @media(max-width: 500px) {
   body{
     width: auto;
+  }
+
+  .socialMedia{
+    /* display: none; */
+    /* width: 350px; */
   }
 
   .top-btn{
