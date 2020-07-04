@@ -149,7 +149,7 @@ html {
   width: 100%;
   height: 80vh;
   object-fit: cover;
-  opacity: .8;
+  opacity: .9;
 }
 
 .showcase-content h3{
@@ -237,13 +237,10 @@ html {
 
 .socialMedia{
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   width: 1200px;
   margin: 50px auto;
-
 }
-
 /* services */
 
 .services-container{
