@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://aspirefinance.ca/sitemap.xml
+Sitemap: https://jessejamesphotography.ca/sitemap.xml
