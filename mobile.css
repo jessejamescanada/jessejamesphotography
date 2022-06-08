@@ -125,7 +125,12 @@
   .navbar{
     display: flex;
     flex-direction: column;
-    padding: 40px 40px 0px 40px;
+    /* padding: 40px 40px 0px 40px; */
+    width: auto;
+    padding: 0;
+  }
+  .navbar img{
+    display: none;
   }
   /* .navbar ul{
     display: flex;
@@ -146,13 +151,13 @@
     margin: 0px 8px;
     color: #daad86;
   }
-  .navbar li:last-child, .navbar li:first-child{
+  /* .navbar li:last-child, .navbar li:first-child{
     display: none;
   }
   .navbar li a{
     margin: 0px 30px;
     color: #cc0000;
-  }
+  } */
 
   .sticky{
     position: relative;
@@ -302,4 +307,57 @@
  .blog-slide-img{
    width: 100%;
  }
+
+ .collapsible-menu {
+  display: block;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px 30px; */
+    border-bottom: 3px solid #CDE700;
+    width: 100%;
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+.collapsible-menu label {
+  font-family: 'Roboto' ;
+  font-style: italic;
+  font-size: 46px;
+  font-weight: 100;
+  display: block;
+  cursor: pointer;
+  /* background: url('/public/logo192.png') no-repeat left center; */
+  padding: 10px 0 10px 0px;
+  text-align: center;
+}
+.mobile-nav{
+  display: flex;
+  flex-direction: column;
+}
+input#menu {
+  display: none;
+}
+input:checked +label {
+  /* background-image: url('/public/logo192.png'); */
+}
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif; 
+  /* padding: 0 0 0 50px; */
+}
+/* Toggle Effect */
+input:checked ~ label {
+  /* background-image: url('/public/logo192.png'); */
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+#collapse{display: none;}
 }
