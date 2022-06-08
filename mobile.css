@@ -2,6 +2,9 @@
 
 /* 1199px */
 @media(max-width: 1199px){
+  .blog-card img{
+    height: 200px;
+  }
   .packages-container{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -95,6 +98,10 @@
   }
   .ccField-prepend input, .ccField-prepend textarea{
     width: auto;
+  }
+  /* blog */
+  .blog-homepage-display{
+    flex-direction: column;
   }
 }
 
@@ -269,5 +276,30 @@
  }
  .ccField-prepend input, .ccField-prepend textarea{
    width: auto;
+ }
+ /* blog */
+ .blog-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   padding: 50px;
+   margin: auto;
+ }
+ .blog-gallery-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .blog-slide-head-img{
+   width: 100%;
+ }
+ .blog-slide-head-img img{
+   width: 100%;
+ }
+ .blog-slide-img{
+   width: 100%;
  }
 }
