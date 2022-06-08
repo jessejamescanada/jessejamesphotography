@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+
+/blog /blog.html
+/blog/family /blog.html
+/blog/weddings /blog.html
