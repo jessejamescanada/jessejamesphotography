@@ -603,3 +603,27 @@ footer a{
   /* transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
   border-radius: 8px;
 }
+
+/* elopement page */
+.blog-content h2{
+  margin: 20px 0px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;;
+}
+.elopement-package-container{
+  display: flex;
+  width: 70%;
+  margin: 25px auto;
+  justify-content: space-between;
+}
+.elopement-package-container h3{
+  color: rgb(180, 112, 24);
+  font-size: 19px;
+  font-weight: 800;
+}
+.elopement-package-container ul li{
+  list-style: none;
+}
+.elopement-img-hide{
+  display: none;
+}
