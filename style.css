@@ -250,6 +250,9 @@ html {
   flex-direction: column;
   text-align: center;
 }
+.services-text a{
+  text-decoration: none;
+}
 
  .services-container > *:first-child,
  .services-container > *:nth-child(2),
