@@ -512,7 +512,13 @@ footer a{
   display: flex;
   flex-direction: row;
 }
-.blog-homepage-display a{
+.blog-homepage-display2{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.blog-homepage-display a, .blog-homepage-display2 a{
   text-decoration: none;
   color: #333;
 }
