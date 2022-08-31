@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.fb-page{
+  width: 50%;
+  display:block;
+  margin:0 auto;
+  padding: 20px 0px;
+}
 .link-color{
   color: #cc0000;
   cursor: pointer;

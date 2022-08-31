@@ -116,6 +116,11 @@
     /* width: 350px; */
   }
 
+  .fb-page{
+    width: auto;
+    padding: 8px 0px;
+  }
+
   .top-btn{
     padding: 5px;
     margin: 0;
