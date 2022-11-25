@@ -116,6 +116,10 @@
     /* width: 350px; */
   }
 
+  .portfolio-h3{
+    display: none;
+  }
+
   .fb-page{
     width: auto;
     padding: 8px 0px;
