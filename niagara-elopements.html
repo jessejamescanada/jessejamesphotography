@@ -158,24 +158,25 @@
   <div class="contact-content">
   <div class="ccForm">
   <h3>Contact Me</h3>
-      <form
-        action="https://formspree.io/photography.jesse.james@gmail.com"
-        method="POST"
-      >
-        <div class="ccField-prepend">
-          <label>Name<span class="star">*</span> </label>
-          <input type="text" name="firstName" required />
-        </div>
-        <div class="ccField-prepend">
-          <label>Email<span class="star">*</span> </label>
-          <input type="text" name="_replyto" required />
-        </div>
-        <div class="ccField-prepend">
-          <label>Message<span class="star">*</span> </label>
-          <textarea name="message" required></textarea>
-        </div>
-        <button type="submit" class="btn">Send</button>
-      </form>
+  <form
+  name="elope-contact" method="POST" data-netlify="true"
+  data-netlify-recaptcha="true"
+>
+  <div class="ccField-prepend">
+    <label>Name<span class="star">*</span> </label>
+    <input type="text" name="firstName" required />
+  </div>
+  <div class="ccField-prepend">
+    <label>Email<span class="star">*</span> </label>
+    <input type="text" name="_replyto" required />
+  </div>
+  <div class="ccField-prepend">
+    <label>Message<span class="star">*</span> </label>
+    <textarea name="message" required></textarea>
+  </div>
+  <div data-netlify-recaptcha="true"></div>
+  <button type="submit" class="btn">Send</button>
+</form>
     </div>
   </div> 
 </div>
