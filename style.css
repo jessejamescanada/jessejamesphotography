@@ -57,6 +57,10 @@ html {
   color: #333;
 }
 
+.wedding-page{
+  display: none;
+}
+
 .top-btn{
   display: none;
   position: fixed;
