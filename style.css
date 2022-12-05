@@ -61,6 +61,15 @@ html {
   display: none;
 }
 
+.wedding-contact-link{
+  text-decoration: none;
+  color: #cc0000;
+}
+.wedding-contact-link:hover{
+  cursor: pointer;
+  color: var(--btn-color)
+}
+
 .top-btn{
   display: none;
   position: fixed;
@@ -293,7 +302,7 @@ html {
 
 .packages-container{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
   width: 1200px;
   margin: 50px auto;
