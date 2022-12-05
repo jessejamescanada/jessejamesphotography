@@ -5,6 +5,9 @@
   .blog-card img{
     height: 200px;
   }
+  .wedding-slide{
+    display: none;
+  }
   .packages-container{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -125,8 +128,20 @@
     padding: 8px 0px;
   }
 
+  /* wedding page */
   .wedding-page{
     display: block;
+  }
+  .wedding-page img{
+    width: 100%;
+  }
+
+  .winter-wedding-page img{
+    width: 100%;
+  }
+
+  .wedding-slide{
+    display: none;
   }
 
   .top-btn{
@@ -301,7 +316,7 @@
    align-items: center;
    justify-content: center;
    width: 100%;
-   padding: 50px;
+   padding: 8px;
    margin: auto;
  }
  .blog-gallery-container{

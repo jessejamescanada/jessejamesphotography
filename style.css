@@ -61,6 +61,20 @@ html {
   display: none;
 }
 
+.wedding-slide{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.wedding-slide img{
+  width: 350px;
+  margin: 3px;
+}
+
 .wedding-contact-link{
   text-decoration: none;
   color: #cc0000;
@@ -643,6 +657,8 @@ footer a{
 .elopement-img-hide{
   display: none;
 }
+
+
 
 /* .dropdown {
   float: left;
