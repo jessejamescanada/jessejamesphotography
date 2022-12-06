@@ -97,7 +97,7 @@
   }
   .ccForm{
     width: auto;
-    /* padding: 0; */
+    padding: 20px
   }
   .ccField-prepend input, .ccField-prepend textarea{
     width: auto;
@@ -299,10 +299,9 @@
 
  .contact-container{
    width: 50px;
-   padding: 0;
  }
  .ccform{
-   padding: 0;
+   padding: 20px;
    width: auto;
  }
  .ccField-prepend{
