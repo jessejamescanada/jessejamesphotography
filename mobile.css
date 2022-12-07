@@ -73,6 +73,10 @@
     width: auto;
   }
 
+  .showcase-container img{
+    object-fit: cover;
+  }
+
   .about-content{
     width: auto;
     display: flex;
@@ -136,8 +140,19 @@
     width: 100%;
   }
 
+  .winter-wedding-page{
+    /* flex-direction: column; */
+    height: auto;
+  }
+
   .winter-wedding-page img{
     width: 100%;
+  }
+  .wedding-vert{
+    /* display: none; */
+  }
+  .wedding-landscape{
+    display: none;
   }
 
   .wedding-slide{
@@ -195,7 +210,9 @@
     height: 60vh;
     width: auto;
   }
-
+.showcase-container img{
+  object-fit: cover;
+}
   .showcase-content{
     width: 300px;
     height: auto;
@@ -214,7 +231,7 @@
     margin-top: 30px;
   }
   .about-container img{
-    display: none;
+    /* display: none; */
   }
   .who-content-container{
     margin: 0;
@@ -235,6 +252,9 @@
     flex-direction: column;
     padding: 5px 5px;
     margin-top: 0px;
+  }
+  .services-heading h2{
+    padding-top: 20px;
   }
 
   .mobile-hide{
