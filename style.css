@@ -229,6 +229,9 @@ html {
   border-radius: 5px;
   box-shadow: 10px 10px 5px -10px rgba(0,0,0,.75);
 }
+.about-content p{
+  text-align: center;
+}
 
 .about-container img{
   width: auto;
@@ -330,7 +333,7 @@ html {
 
 #packages h2{
   color: var(--btn-color);
-  font-size: 35px;
+  font-size: 33px;
   font-weight: 100;
   font-family: 'Courgette', cursive;
   text-align: center;
@@ -351,7 +354,7 @@ html {
 }
 
 .packages-side{
-  background-color: #a5a5a5;
+  background-color: #8a8a8a;
   position: relative;
   padding: 42px 30px 50px 28px;
   border-radius: 5px;

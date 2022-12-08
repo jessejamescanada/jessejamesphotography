@@ -236,6 +236,10 @@
   .who-content-container{
     margin: 0;
   }
+  .who-content-container h3{
+    text-align: center;
+    padding: 5px 0px;
+  }
   .about-content{
     width: auto;
     padding: 10px;
@@ -244,7 +248,7 @@
     text-align: center;
   }
   .about-content p{
-    text-align: left;
+    text-align: center;
     width: 100%;
   }
   .services-container, .services-container .card{
@@ -360,7 +364,7 @@
   display: block;
     background-color: rgb(255, 255, 255);
     /* padding: 0px 30px; */
-    border-bottom: 3px solid #CDE700;
+    border-bottom: 3px solid var(--btn-color);
     width: 100%;
 }
 .collapsible-menu ul {
