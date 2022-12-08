@@ -422,4 +422,8 @@ input:checked ~ .menu-content {
     width: 100%;
     margin-bottom: 10px;
   }
+  /* family */
+  .family-photo{
+    width: 100%;
+  }
 }
