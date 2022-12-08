@@ -380,8 +380,8 @@
     text-align: center;
 }
 .collapsible-menu label {
-  font-family: 'Roboto' ;
-  font-style: italic;
+  font-family: 'Courgette', cursive; ;
+  /* font-style: italic; */
   font-size: 46px;
   font-weight: 100;
   display: block;
@@ -389,6 +389,7 @@
   /* background: url('/public/logo192.png') no-repeat left center; */
   padding: 10px 0 10px 0px;
   text-align: center;
+  color: var(--btn-color);
 }
 .mobile-nav{
   display: flex;
