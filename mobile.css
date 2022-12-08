@@ -352,9 +352,11 @@
  }
  .blog-slide-head-img{
    width: 100%;
+   
  }
  .blog-slide-head-img img{
    width: 100%;
+   height: auto;
  }
  .blog-slide-img{
    width: 100%;

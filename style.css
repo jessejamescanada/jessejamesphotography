@@ -682,6 +682,9 @@ footer a{
   margin: auto;
   padding-top: 25px;
 }
+.blog-slide-head-img img{
+  height: 65vh;
+}
 .blog-slide img{
   width: 100%;
   /* height: 100%;
