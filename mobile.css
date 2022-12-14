@@ -59,6 +59,24 @@
     padding: 5px 5px;
     margin-top: 0px;
   }
+  .services-title{
+    font-size: 32px;
+    border: dashed 2px var(--btn-color);
+    border-radius: 5px;
+    
+  }
+  .services-text a{
+    color: #444;
+  }
+
+  .heading-containers p{
+    padding: 8px;
+  }
+
+  .who-content-container h3{
+    text-align: center;
+    padding: 5px 0px;
+  }
 
   .navbar{
     display: flex;
