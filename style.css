@@ -20,6 +20,10 @@ body{
   background: linear-gradient(180deg, rgba(240,240,240,0.6889430732484076) 0%, rgba(177,177,177,0.6421919109440651) 100%);
 }
 
+.hidden{
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -243,6 +247,11 @@ html {
 .who-content-container {
   margin-left: 50px;
 }
+
+.who-title{
+  text-align: center;
+  padding: 5px 0px;
+}
 .weddingLink{
   text-decoration: none;
   color: #333;
@@ -301,6 +310,10 @@ html {
 }
 .services-text a{
   text-decoration: none;
+  color: #444;
+}
+.services-text a:focus{
+  color: #444;
 }
 
  .services-container > *:first-child,
@@ -657,7 +670,7 @@ footer a{
 
 .winter-wedding-page{
   display: flex;
-  height: 400px;
+  height: auto;
 }
 
 .winter-wedding-page img{
@@ -683,7 +696,8 @@ footer a{
   padding-top: 25px;
 }
 .blog-slide-head-img img{
-  height: 65vh;
+  width: auto;
+  height: auto;
 }
 .blog-slide img{
   width: 100%;
@@ -719,22 +733,6 @@ footer a{
 }
 
 
-
-/* .dropdown {
-  float: left;
-  overflow: hidden;
-} */
-
-/* .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-} */
 
 .dropdown:hover .dropbtn {
   background-color: red;

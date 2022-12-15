@@ -92,7 +92,7 @@
               
               <p>I offer multiple wedding packages, starting at <strong>$1899 </strong>and going up from there. All photography packages come with the fully edited high resolution files in colour AND black and white of each photo, an online gallery to download everything from, and options to add an engagement shoot or a second shooter. All packages can be customized. <strong><a href="#contact" class="wedding-contact-link">Please contact me for further details.</a></strong></p>
               <div class="winter-wedding-page">
-                <img src="/blog/assets/wainfleet/1 (201 of 532).webp" alt="Niagara backyard Wedding">
+                <img src="img/Honsberger_wedding.jpg" alt="Honsberger Wedding Photos">
               </div>
               <div class="heading-containers">
                 <div class="heading-containers">
@@ -136,7 +136,7 @@
       <div class="gallery-container">
         
         <div class="blog-slide">
-          <img src="/img/Honsberger_wedding.jpg" alt="Honsberger wedding photos">
+          <img src="/blog/assets/wainfleet/1 (201 of 532).webp" alt="backyard wedding wainfleet">
         </div>
         <div class="blog-slide vert">
           <img src="/img/Kurtz_orchard_wedding.jpg" alt="Kurtz Orchard Wedding">
@@ -225,25 +225,30 @@
   <div class="contact-content">
   <div class="ccForm">
   <h3>Contact Me</h3>
-      <form
-        name="Jesse James Photography" method="POST" data-netlify="true"
-        data-netlify-recaptcha="true"
-      >
-        <div class="ccField-prepend">
-          <label>Name<span class="star">*</span> </label>
-          <input type="text" name="firstName" required />
-        </div>
-        <div class="ccField-prepend">
-          <label>Email<span class="star">*</span> </label>
-          <input type="text" name="_replyto" required />
-        </div>
-        <div class="ccField-prepend">
-          <label>Message<span class="star">*</span> </label>
-          <textarea name="message" required></textarea>
-        </div>
-        <div data-netlify-recaptcha="true"></div>
-        <button type="submit" class="btn">Send</button>
-      </form>
+  <form
+  name="Jesse James Photography" method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+>
+<p class="hidden">
+  <label>
+    Don’t fill this out if you’re human: <input name="bot-field" />
+  </label>
+</p>
+  <div class="ccField-prepend">
+    <label>Name<span class="star">*</span> </label>
+    <input type="text" name="firstName" required />
+  </div>
+  <div class="ccField-prepend">
+    <label>Email<span class="star">*</span> </label>
+    <input type="text" name="_replyto" required />
+  </div>
+  <div class="ccField-prepend">
+    <label>Message<span class="star">*</span> </label>
+    <textarea name="message" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send</button>
+</form>
     </div>
   </div> 
 </div>

@@ -5,6 +5,7 @@
   .blog-card img{
     height: 200px;
   }
+
   .wedding-slide{
     display: none;
   }
@@ -53,6 +54,14 @@
 }
 
 @media(max-width: 968px){
+  .wedding-vert{display: none;}
+  .winter-wedding-page {
+    flex-direction: column;
+    width: 100%;
+  }
+  .winter-wedding-page img{
+    width: 100%;
+  }
   .services-container, .services-container .card{
     display: flex;
     flex-direction: column;
@@ -73,7 +82,7 @@
     padding: 8px;
   }
 
-  .who-content-container h3{
+  .who-title{
     text-align: center;
     padding: 5px 0px;
   }
@@ -178,14 +187,12 @@
     height: auto;
   }
 
-  .winter-wedding-page img{
-    width: 100%;
-  }
+
   .wedding-vert{
     /* display: none; */
   }
   .wedding-landscape{
-    display: none;
+    /* display: none; */
   }
 
   .wedding-slide{
@@ -269,7 +276,7 @@
   .who-content-container{
     margin: 0;
   }
-  .who-content-container h3{
+  .who-title{
     text-align: center;
     padding: 5px 0px;
   }

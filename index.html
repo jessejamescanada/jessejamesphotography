@@ -38,7 +38,7 @@
         </a>
         <ul class='desktop-nav'>
           <li class="dropdown">
-            <a href="">Services <span class="title-color">& </span>Portfolio
+            <a href="https://jessejamesphotography.ca#services">Services <span class="title-color">& </span>Portfolio
                 <i class="fa fa-caret-down"></i>
               <div class="dropdown-content">
                 <a href="https://www.jessejamesphotography.ca/niagara-weddings.html">Weddings</a>
@@ -71,10 +71,12 @@
     <section id="showcase1">
       <div class="showcase-container">
         <!-- <img src="./img/niagara-wedding-photographer.jpg" alt="Niagara Wedding Photographer"> -->
-        <img srcset="./img/niagara-wedding-photographer-mobile2.jpg 500w, img/niagara-wedding-photographer.jpg 1024w"
-        sizes="(max-width: 500px) 500px,
+        <img 
+        srcset="./img/niagara-wedding-photographer-mobile2.jpg 480w, 
+        img/niagara-wedding-photographer.jpg 1024w"
+        sizes="(max-width: 500px) 480px,
         1024px"
-        src="./img/niagara-wedding-photographer.jpg"
+        src="./img/niagara-wedding-photographer-mobile2.jpg"
         alt="Niagara Wedding Photographer">
         <div class="showcase-content">
           <h1>Niagara Wedding Photographer</h1>
@@ -93,7 +95,7 @@
             </a>
             <a href="#contact"><i class="fas fa-envelope fa-3x"></i></a>
           </div>
-          <h4><a href="#services">Learn More</a></h4>
+          
         </div>
       </div>
     </section>
@@ -101,7 +103,7 @@
     <!-- Services -->
     <section id="services">
       <div class="heading-containers">
-        <h2>Services / Portfolio</h2>
+        <div class="services-title">Services / Portfolio</div>
         <img src="/img/underline.png" alt="underline" class="underline">
         <p>Hey there! Thanks for checking out my work. Click on any of the 3 following sections for more information & portfolio images for weddings, family and elopement photography!</p>
       </div>
@@ -155,7 +157,7 @@
         <div class="about-content">
         <img src="./img/jesse-james-photography.jpg" alt="Niagara Falls Elopement Photographer">
         <div class="who-content-container">
-          <h3><span class="title-color">About</span> Me</h3>
+          <div class="who-title"><span class="title-color">About</span> Me</div>
           <p>I have been photographing weddings, elopements, and family portraits in the Niagara region for over 14 years now. I love working with couples and families from all over the area, and those visiting Niagara Falls as well! There are so many beautiful backdrops around the Niagara region for your photography needs. I find it's important to plan out your shoot in advance, so we can get the best possible photos for you. I can offer advice on clothing to wear, or different locations to use.</p>
           <br>
           <br>
@@ -290,9 +292,15 @@
       <div class="ccForm">
       <h3>Contact Me</h3>
       <form
-      name="Jesse James Photography" method="POST" data-netlify="true"
-      data-netlify-recaptcha="true"
+      name="Jesse James Photography" method="POST"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
     >
+    <p class="hidden">
+      <label>
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
+    </p>
       <div class="ccField-prepend">
         <label>Name<span class="star">*</span> </label>
         <input type="text" name="firstName" required />
@@ -305,7 +313,6 @@
         <label>Message<span class="star">*</span> </label>
         <textarea name="message" required></textarea>
       </div>
-      <div data-netlify-recaptcha="true"></div>
       <button type="submit" class="btn">Send</button>
     </form>
         </div>
