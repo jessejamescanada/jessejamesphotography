@@ -364,6 +364,18 @@
         </a>
       </div>
       <p>Website design by me!</a></p>
+      <script>
+        window.addEventListener('load', function() {
+          var set = setInterval(function(){
+            if(document.querySelector('p')){
+              if(document.querySelector('p').innerText.includes("Your form submission has been received.")){
+                gtag('event', 'conversion', {'send_to': 'AW-1019172301/n_r6CLf3uYgYEM2r_eUD'});
+                clearInterval(set);
+              }
+            }
+          },1000)
+          });
+      </script>
     </footer>
     <button class="btn top-btn"><i class="fas fa-envelope"></i></button>
   </body>
