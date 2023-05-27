@@ -663,6 +663,9 @@ footer a {
   align-items: center;
   font-size: 2rem;
 }
+.share-p {
+  padding-right: 6px;
+}
 #share-buttons .twitter {
   padding-left: 10px;
   color: rgb(89, 89, 206);

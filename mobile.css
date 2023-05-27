@@ -139,7 +139,11 @@
   }
   #share-buttons {
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .share-p {
+    font-size: 1.5rem;
+    padding-right: 6px;
   }
 }
 
