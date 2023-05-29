@@ -32,6 +32,21 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 404 */
+.container-404 {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+.p-404 {
+  font-size: 20px;
+}
+.p-404 a {
+  text-decoration: none;
+  color: #cc0000;
+  cursor: pointer;
+}
+
 .fb-page {
   width: 50%;
   display: block;
