@@ -3,72 +3,77 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://www.jessejamesphotography.ca/</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/niagara-weddings.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/niagara-elopements.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/niagara-family.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/blog</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-winter-wedding.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<loc>https://www.jessejamesphotography.ca/blog/engagements/ontario-wildfire-engagement.html</loc>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.jessejamesphotography.ca/blog/family/niagara-falls-family-photography.html</loc>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-falls-elopement.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:23+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.jessejamesphotography.ca/blog/engagements/botanical-gardens-engagements.html</loc>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-winter-wedding.html</loc>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.jessejamesphotography.ca/blog/weddings/wainfleet-wedding.html</loc>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/blog/weddings/club-roma-wedding.html</loc>
-	<lastmod>2023-05-20T01:10:27+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://www.jessejamesphotography.ca/blog/weddings/Wainfleet-Wedding.html</loc>
-	<lastmod>2023-05-20T01:10:30+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.jessejamesphotography.ca/blog/weddings/Chateau-Des-Charmes-Wedding.html</loc>
-	<lastmod>2023-05-20T01:10:30+01:00</lastmod>
+	<loc>https://www.jessejamesphotography.ca/blog/weddings/chateau-des-charmes-wedding.html</loc>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/blog/family/niagara-beach-family-photography.html</loc>
-	<lastmod>2023-05-20T01:10:30+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://www.jessejamesphotography.ca/blog/weddings/queenston-heights-wedding.html</loc>
-	<lastmod>2023-05-20T01:10:30+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.jessejamesphotography.ca/blog/weddings/wainfleet-wedding</loc>
-	<lastmod>2023-05-20T01:10:32+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.jessejamesphotography.ca/blog/weddings/chateau-des-charmes-wedding</loc>
-	<lastmod>2023-05-20T01:10:32+01:00</lastmod>
+	<lastmod>2023-06-08T04:23:26+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 </urlset>
