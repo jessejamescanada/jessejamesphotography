@@ -1,3 +1,9 @@
+/* 1280px */
+@media (max-width: 1280px) {
+  .blog-card img {
+    height: 160px;
+  }
+}
 /* 1199px */
 @media (max-width: 1199px) {
   .blog-card img {
