@@ -464,7 +464,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1200px;
+  /* width: 1200px; */
   height: auto;
   margin: auto;
   padding: 50px;
@@ -598,7 +598,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 .blog-homepage-content {
@@ -617,7 +617,7 @@ footer a {
 }
 .blog-homepage-title {
   font-size: 24px;
-  margin-top: 10px;
+  /* margin-top: 130px; */
   margin-bottom: 10px;
   text-align: center;
 }
@@ -642,13 +642,14 @@ footer a {
   text-align: center;
   background-color: white;
   padding: 10px;
+  height: 310px;
   margin: 10px;
   border-radius: 5px;
   box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.75);
 }
 .blog-card img {
   width: auto;
-  height: 250px;
+  height: 150px;
   border-radius: 5px;
 }
 .blog-article-text {
@@ -832,4 +833,6 @@ footer a {
 }
 .heading-containers p {
   padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
