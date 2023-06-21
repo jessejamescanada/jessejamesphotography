@@ -9,21 +9,21 @@ window.addEventListener('scroll', topScroll)
 topBTN.addEventListener('click', scrollToTop)
 
 // Navbar opacity functions
-function navOpacity() {
-  if (window.scrollY > 150) {
-    navbar.style.opacity = 0.9
-  } else {
-    navbar.style.opacity = 1
-  }
-}
+// function navOpacity() {
+//   if (window.scrollY > 150) {
+//     navbar.style.opacity = 0.9
+//   } else {
+//     navbar.style.opacity = 1
+//   }
+// }
 
-function navScroll() {
-  if (window.scrollY >= sticky) {
-    navbar.classList.add('sticky')
-  } else {
-    navbar.classList.remove('sticky')
-  }
-}
+// function navScroll() {
+//   if (window.scrollY >= sticky) {
+//     navbar.classList.add('sticky')
+//   } else {
+//     navbar.classList.remove('sticky')
+//   }
+// }
 
 // scroll functions (commented out section is if you want to replace scrolling to contact with scrolling to top)
 function scrollToTop() {
