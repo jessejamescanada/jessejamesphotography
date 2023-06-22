@@ -373,6 +373,7 @@
     flex-direction: column;
     padding: 5px;
     padding-top: 50px;
+    width: 100%;
   }
   .slide img {
     margin-bottom: 5px;
