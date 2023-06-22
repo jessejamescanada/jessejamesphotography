@@ -279,7 +279,7 @@
   }
   #showcase1 img {
     height: 60vh;
-    width: auto;
+    width: 100%;
   }
   .showcase-container img {
     object-fit: cover;

@@ -47,11 +47,11 @@
     />
     <meta
       name="description"
-      content="Award winning Niagara wedding & elopement photographer. Information on wedding, family & elopement photography packages in the Niagara & Hamilton, Ontario regions."
+      content="Award winning Niagara wedding & elopement photographer. Information on wedding, family & elopement photography in the Niagara & Hamilton, Ontario regions."
     />
     <meta
       property="og:description"
-      content="Award winning Niagara wedding & elopement photographer. Information on wedding, family & elopement photography packages in the Niagara & Hamilton, Ontario regions."
+      content="Award winning Niagara wedding & elopement photographer. Information on wedding, family & elopement photography in the Niagara & Hamilton, Ontario regions."
     />
     <meta
       property="og:url"
@@ -187,7 +187,7 @@
     <!-- showcase 1 -->
     <section id="showcase1">
       <div class="showcase-container">
-        <img
+        <!-- <img
           srcset="
             ./img/niagara-wedding-photographer-mobile2.jpg  480w,
             img/niagara-wedding-photographer.webp          1024w
@@ -196,7 +196,21 @@
         1024px"
           src="./img/niagara-wedding-photographer-mobile2.jpg"
           alt="Niagara Wedding Photographer"
-        />
+        /> -->
+        <picture>
+          <source
+            media="(min-width:650px)"
+            srcset="img/niagara-wedding-photographer.webp"
+          />
+          <source
+            media="(min-width:300px)"
+            srcset="img/niagara-wedding-photographer-mobile2.jpg"
+          />
+          <img
+            src="img/niagara-wedding-photographer.webp "
+            alt="Niagara Wedding Photographer"
+          />
+        </picture>
         <div class="showcase-content">
           <h1>Niagara Wedding Photographer</h1>
           <div class="social-container">
@@ -345,8 +359,8 @@
               <article class="blog-card">
                 <img
                   class="lazy"
-                  data-src="/blog/assets/cawedding/port-colborne-marina.jpg"
-                  alt="Club Roma Wedding"
+                  data-src="/blog/home-resized-feature/port-colborne-marina.jpg"
+                  alt="sugarloaf marina wedding"
                 />
                 <div class="blog-article-text">
                   <h3>Italian Hall Wedding</h3>
@@ -363,11 +377,11 @@
               <article class="blog-card">
                 <img
                   class="lazy"
-                  data-src="/blog/assets/logan-colton-engagement/wildfire-skies-engagement.jpg"
-                  alt="Club Roma Wedding"
+                  data-src="/blog/home-resized-feature/wildfire-skies-engagement.jpg"
+                  alt="kehoe and kin engagement session"
                 />
                 <div class="blog-article-text">
-                  <h3>Kehoe and Kin Engagements</h3>
+                  <h3>Kehoe & Kin Engagement</h3>
                   <p>Engagement shoot at Kehoe & Kin in Wainfleet Ontario.</p>
                 </div>
               </article>
@@ -379,7 +393,7 @@
               <article class="blog-card">
                 <img
                   class="lazy"
-                  data-src="/blog/assets/starRich/9.jpg"
+                  data-src="/blog/home-resized-feature/9.jpg"
                   alt="family shoot at botanical gardens"
                 />
                 <div class="blog-article-text">
@@ -397,7 +411,7 @@
               <article class="blog-card">
                 <img
                   class="lazy"
-                  data-src="/blog/assets/niagara-falls-elopement/niagara-falls-elopement (9).jpg"
+                  data-src="/blog/home-resized-feature/niagara-falls-elopement (9).jpg"
                   alt="wedding in front of niagara falls"
                 />
                 <div class="blog-article-text">
