@@ -18,7 +18,7 @@ function navOpacity() {
 }
 
 function navScroll() {
-  if (window.scrollY >= sticky) {
+  if (window.scrollY >= 150) {
     navbar.classList.add('sticky')
   } else {
     navbar.classList.remove('sticky')
@@ -103,7 +103,6 @@ const link = encodeURI(window.location.href)
 const msg = encodeURIComponent('Check out this blog by Jesse James Photography')
 const title = encodeURIComponent(document.querySelector('title').textContent)
 
-console.log([link, msg, title])
 const fb = document.querySelector('.facebook')
 fb.href = `https://www.facebook.com/share.php?u=${link}`
 

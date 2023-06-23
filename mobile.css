@@ -72,8 +72,17 @@
 }
 
 @media (max-width: 968px) {
+  .family-photo {
+    width: 100%;
+  }
   .blog-homepage-display a {
     width: 100%;
+  }
+  .blog-slide-head-img img {
+    width: 100%;
+  }
+  .blog-slide-head-img .small-blog {
+    width: auto;
   }
   .wedding-vert {
     display: none;
@@ -145,7 +154,7 @@
   }
   .packages-container {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(1, 1fr);
     width: auto;
   }
@@ -169,6 +178,15 @@
     font-size: 1.5rem;
     padding-right: 6px;
   }
+  .testimonial-container {
+    padding: 0px;
+  }
+  .testimonial-content {
+    padding: 0px 10px;
+  }
+  .testimonial p {
+    margin-left: 10px;
+  }
 }
 
 /* 500px */
@@ -178,6 +196,9 @@
   }
   .blog-card {
     height: auto;
+  }
+  .blog-slide-head-img .small-blog {
+    width: 100%;
   }
   .services-title {
     font-size: 32px;
@@ -288,6 +309,7 @@
     width: 300px;
     height: auto;
     padding: 10px 0px;
+    margin-top: 40px;
   }
 
   .showcase-content h1 {
@@ -351,7 +373,7 @@
   .services-container .card img {
     margin-top: 25px;
     height: 250px;
-    width: auto;
+    width: 100%;
   }
 
   .packages-container {
@@ -369,10 +391,10 @@
     border-radius: 0px;
   }
 
-  #testimonials,
+  /* #testimonials,
   .showcase4 {
     display: none;
-  }
+  } */
 
   .gallery-container {
     display: flex;

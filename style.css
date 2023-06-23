@@ -216,8 +216,8 @@ html {
 
 .showcase-container img {
   width: 100%;
-  height: 86vh;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
   /* opacity: .9; */
 }
 
@@ -462,7 +462,7 @@ html {
 }
 .testimonial-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   /* width: 1200px; */
   height: auto;
@@ -472,12 +472,24 @@ html {
   border-radius: 5px;
   box-shadow: 10px 10px 5px -10px rgba(0, 0, 0, 0.75);
 }
-.testimonial {
+.star-rating {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+.fa-star {
+  color: #daad86;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 20px 0px;
+  width: 50%;
 }
 .testimonial img {
   border-radius: 50%;
@@ -839,4 +851,76 @@ footer a {
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.slider {
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  padding: 0px 20px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.slides > div:target {
+  /*   transform: scale(0.8); */
+}
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
 }

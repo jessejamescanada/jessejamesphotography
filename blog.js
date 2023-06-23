@@ -1,7 +1,5 @@
 const navbar = document.querySelector('.navbar')
 const sticky = navbar.offsetTop
-const topBTN = document.querySelector('.top-btn')
-const contactSection = document.getElementById('contact')
 
 window.addEventListener('scroll', navScroll)
 window.addEventListener('scroll', navOpacity)
@@ -16,22 +14,11 @@ function navOpacity() {
 }
 
 function navScroll() {
-  if (window.pageYOffset >= sticky) {
+  if (window.scrollY >= 150) {
     navbar.classList.add('sticky')
   } else {
     navbar.classList.remove('sticky')
   }
-}
-
-// scroll functions (commented out section is if you want to replace scrolling to contact with scrolling to top)
-function scrollToTop() {
-  // document.body.scrollTop = 0;
-  // document.documentElement.scrollTop = 0
-  contactSection.scrollIntoView({
-    behavior: 'smooth',
-    block: 'end',
-    inline: 'nearest',
-  })
 }
 
 //
