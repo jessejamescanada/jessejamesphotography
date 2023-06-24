@@ -484,7 +484,7 @@
     text-align: center;
   }
   .collapsible-menu label {
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
     /* font-style: italic; */
     font-size: 46px;
     font-weight: 100;

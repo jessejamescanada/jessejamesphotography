@@ -224,13 +224,13 @@ html {
 .showcase-content h3 {
   font-size: 48px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
 }
 
 .showcase-content h1 {
   font-size: 22px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
 }
 
 /* who */
@@ -286,7 +286,7 @@ html {
   margin: 30px 0px;
   font-size: 48px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
   text-align: center;
 }
 
@@ -318,7 +318,7 @@ html {
   color: var(--btn-color);
   font-size: 36px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
 }
 
 .services-text {
@@ -355,7 +355,7 @@ html {
   color: var(--btn-color);
   font-size: 28px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
 }
 
 /* packages */
@@ -364,7 +364,7 @@ html {
   color: var(--btn-color);
   font-size: 33px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
   text-align: center;
   padding-top: 20px;
 }
@@ -449,7 +449,7 @@ html {
   color: var(--btn-color);
   font-size: 36px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
   text-align: center;
   padding-top: 20px;
 }
@@ -561,7 +561,7 @@ html {
 .ccForm h3 {
   color: var(--btn-color);
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
   font-size: 30px;
 }
 .ccField-prepend {
@@ -844,7 +844,7 @@ footer a {
   color: var(--btn-color);
   font-size: 36px;
   font-weight: 100;
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
   margin: 0;
 }
 .heading-containers p {
