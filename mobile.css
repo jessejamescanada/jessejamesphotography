@@ -75,6 +75,10 @@
   .family-photo {
     width: 100%;
   }
+  .blog-homepage-display2 {
+    width: 100%;
+    justify-content: center;
+  }
   .blog-homepage-display a {
     width: 100%;
   }
@@ -191,6 +195,11 @@
 
 /* 500px */
 @media (max-width: 500px) {
+  html,
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
   body {
     width: auto;
   }
