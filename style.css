@@ -620,6 +620,7 @@ footer a {
   width: 100%;
   justify-content: flex-end;
   padding-right: 2rem;
+  margin-bottom: 2rem;
 }
 .blog-view-more a {
   text-decoration: none;
