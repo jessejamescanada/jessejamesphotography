@@ -206,6 +206,9 @@
   .blog-card {
     height: auto;
   }
+  .blog-slide img {
+    height: 100%;
+  }
   .blog-slide-head-img .small-blog {
     width: 100%;
   }
