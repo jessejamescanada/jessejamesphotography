@@ -1,0 +1,46 @@
+.hide-blog-post {
+  display: none;
+}
+.show {
+  display: flex;
+}
+
+.blog-category-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 30px 30px 30px;
+}
+.button-category-container button {
+  margin: 2px;
+}
+.category-content {
+  text-align: center;
+}
+.category-content p {
+  font-weight: 800;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.blog-wedding-button,
+.blog-family-button,
+.blog-engagement-button,
+.blog-all-button {
+  background-color: #daad86;
+  cursor: pointer;
+  padding: 10px 5px;
+  color: rgb(247, 247, 247);
+  border: transparent;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  height: auto;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.highlight {
+  background-color: skyblue;
+  color: rgb(58, 58, 58);
+}

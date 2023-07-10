@@ -212,6 +212,21 @@
   .blog-slide-head-img .small-blog {
     width: 100%;
   }
+  .blog-category-container {
+    padding: 0;
+  }
+  .category-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .button-category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .services-title {
     font-size: 32px;
     border: dashed 2px var(--btn-color);

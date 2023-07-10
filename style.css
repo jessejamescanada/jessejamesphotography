@@ -58,9 +58,9 @@ html {
   cursor: pointer;
   text-decoration: none;
 }
-.link-color:hover {
+/* .link-color:hover {
   font-weight: 800;
-}
+} */
 
 .btn {
   cursor: pointer;
@@ -647,7 +647,7 @@ footer a {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .blog-homepage-display a,
