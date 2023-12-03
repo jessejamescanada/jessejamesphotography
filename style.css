@@ -511,6 +511,7 @@ html {
   grid-row-gap: 8px;
   /*  */
   width: 80%;
+  max-width: 1500px;
   margin: auto;
 }
 
