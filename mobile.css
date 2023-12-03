@@ -566,4 +566,10 @@
   .family-photo {
     width: 100%;
   }
+
+  /* 2023 review */
+  .review-2023 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
 }
