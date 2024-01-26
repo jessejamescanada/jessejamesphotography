@@ -140,6 +140,12 @@
     object-fit: cover;
   }
 
+  .showcase-content {
+    left: 85%;
+    top: 88%;
+    width: 25%;
+  }
+
   .about-content {
     width: auto;
     display: flex;
@@ -343,6 +349,12 @@
     height: auto;
     padding: 10px 0px;
     margin-top: 40px;
+    top: 80%;
+    left: 50%;
+  }
+
+  .showcase-heading {
+    top: 65%;
   }
 
   .showcase-content h1 {
