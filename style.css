@@ -663,7 +663,7 @@ footer a {
   justify-content: center;
   text-align: center;
   background-color: white;
-  padding: 10px;
+  padding: 8px;
   height: 310px;
   margin: 10px;
   border-radius: 5px;
@@ -879,8 +879,8 @@ footer a {
 }
 .heading-containers p {
   padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .slider {
