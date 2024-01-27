@@ -99,12 +99,12 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 // social media
-const link = encodeURI(window.location.href)
-const msg = encodeURIComponent('Check out this blog by Jesse James Photography')
-const title = encodeURIComponent(document.querySelector('title').textContent)
+// const link = encodeURI(window.location.href)
+// const msg = encodeURIComponent('Check out this blog by Jesse James Photography')
+// const title = encodeURIComponent(document.querySelector('title').textContent)
 
-const fb = document.querySelector('.facebook')
-fb.href = `https://www.facebook.com/share.php?u=${link}`
+// const fb = document.querySelector('.facebook')
+// fb.href = `https://www.facebook.com/share.php?u=${link}`
 
-const twitter = document.querySelector('.twitter')
-twitter.href = `http://twitter.com/share?url=${link}&text=${msg}`
+// const twitter = document.querySelector('.twitter')
+// twitter.href = `http://twitter.com/share?url=${link}&text=${msg}`
