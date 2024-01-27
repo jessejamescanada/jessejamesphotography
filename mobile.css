@@ -518,6 +518,8 @@
     /* padding: 0px 30px; */
     border-bottom: 3px solid var(--btn-color);
     width: 100%;
+    position: fixed;
+    top: 0%;
   }
   .collapsible-menu ul {
     list-style-type: none;
