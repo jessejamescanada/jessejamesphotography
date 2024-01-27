@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-
-      gtag('config', 'G-XNB3J53ZR2')
-    </script>
     <!-- schema -->
     <script type="application/ld+json">
       {
@@ -116,7 +102,20 @@
       rel="canonical"
       href="https://www.jessejamesphotography.ca/"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
+      gtag('config', 'G-XNB3J53ZR2')
+    </script>
     <title>Niagara Wedding Photographer</title>
   </head>
   <body>
@@ -678,7 +677,7 @@
               </label>
             </p>
             <div class="ccField-prepend">
-              <label>Name<span class="star">*</span> </label>
+              <label for="name">Name<span class="star">*</span> </label>
               <input
                 type="text"
                 name="firstName"
@@ -686,7 +685,7 @@
               />
             </div>
             <div class="ccField-prepend">
-              <label>Email<span class="star">*</span> </label>
+              <label for="email">Email<span class="star">*</span> </label>
               <input
                 type="text"
                 name="_replyto"
@@ -694,7 +693,7 @@
               />
             </div>
             <div class="ccField-prepend">
-              <label>Message<span class="star">*</span> </label>
+              <label for="message">Message<span class="star">*</span> </label>
               <textarea
                 name="message"
                 required
