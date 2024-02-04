@@ -210,6 +210,9 @@ html {
   font-style: italic;
   font-family: 'Font Awesome 5 Brands';
 }
+.showcase-heading h1 span {
+  display: block;
+}
 .showcase-heading button {
   cursor: pointer;
   padding: 15px 50px;
