@@ -74,6 +74,11 @@
       href="img/niagara-wedding-photographer-mobile3.jpg"
     />
     <link
+      rel="preload"
+      as="image"
+      href="/blog/assets/kurtz-orchards-wedding/42_m.jpg"
+    />
+    <link
       rel="image_src"
       type="image/jpeg"
       href="https://www.jessejamesphotography.ca/img/niagara_falls_elopement.jpg"
@@ -199,11 +204,11 @@
           />
         </picture>
         <div class="showcase-heading">
-          <h1>
-            Niagara Wedding <span style="display: block">Photographer</span>
-          </h1>
+          <h1>Niagara Wedding <span>Photographer</span></h1>
           <em>Your wedding story in focus</em>
-          <a href="https://jessejamesphotography.ca/#services"
+          <a
+            href="https://jessejamesphotography.ca/#services"
+            title="Photography Services Offered"
             ><button>Photography Services</button></a
           >
         </div>
@@ -265,10 +270,6 @@
           <div class="wedding-service">
             <div class="wedding-service-wrapper">
               <div class="title-image">
-                <!-- <img
-                  src="/img/Honsberger_wedding.jpg"
-                  alt="niagara wedding photographer"
-                /> -->
                 <picture>
                   <source
                     srcset="/img/Honsberger_wedding.jpg"
@@ -283,7 +284,7 @@
                     alt="Niagara Wedding Photographer"
                   />
                 </picture>
-                <h2 class="desktop-hide">Niagara Weddings</h2>
+                <!-- <h2 class="desktop-hide">Wedding Info</h2> -->
               </div>
               <div class="list-button-wrapper">
                 <h2 class="mobile-hide">Niagara Weddings</h2>
@@ -297,6 +298,7 @@
                 </ul>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-weddings.html"
+                  title="View Wedding photography information"
                   ><button>View Wedding Portfolio</button></a
                 >
               </div>
@@ -316,6 +318,7 @@
                 </ul>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-elopements.html"
+                  title="View elopement photography information"
                   ><button>View Elopement Portfolio</button></a
                 >
               </div>
@@ -324,7 +327,7 @@
                   src="/img/elopement/Inn-on-the-twenty-wedding.jpg"
                   alt="elopement photography in niagara falls"
                 />
-                <h2 class="desktop-hide">Niagara Elopements</h2>
+                <!-- <h2 class="desktop-hide">Elopement Info</h2> -->
               </div>
             </div>
             <div class="wedding-service-wrapper">
@@ -334,7 +337,7 @@
                     src="/img/elopement/Inn-on-the-twenty-wedding.jpg"
                     alt="elopement photography in niagara falls"
                   />
-                  <h2 class="desktop-hide">Niagara Elopements</h2>
+                  <!-- <h2 class="desktop-hide">Elopement Info</h2> -->
                 </div>
                 <div class="list-button-wrapper">
                   <h2 class="mobile-hide">Niagara Elopements</h2>
@@ -348,6 +351,7 @@
                   </ul>
                   <a
                     href="https://www.jessejamesphotography.ca/niagara-elopements.html"
+                    title="View elopement photography information"
                     ><button>View Elopement Portfolio</button></a
                   >
                 </div>
@@ -361,7 +365,7 @@
                   src="/img/family/niagara_family.jpg"
                   alt="niagara family photographer"
                 />
-                <h2 class="desktop-hide">Niagara Families</h2>
+                <!-- <h2 class="desktop-hide">Family Info</h2> -->
               </div>
               <div class="list-button-wrapper">
                 <h2 class="mobile-hide">Niagara Families</h2>
@@ -375,6 +379,7 @@
                 </ul>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-family.html"
+                  title="View family photography information"
                   ><button>View Family Portfolio</button></a
                 >
               </div>
@@ -398,6 +403,7 @@
           <div class="blog-homepage-display">
             <a
               href="https://www.jessejamesphotography.ca/blog/weddings/2023-niagara-wedding-review.html"
+              title="2023 niagara weddings year in review"
             >
               <article class="blog-card">
                 <img
@@ -416,6 +422,7 @@
             </a>
             <a
               href="https://www.jessejamesphotography.ca/blog/weddings/kehoe-and-kin.html"
+              title="blog for wedding at kehoe and kin"
             >
               <article class="blog-card">
                 <img
@@ -434,6 +441,7 @@
             </a>
             <a
               href="https://www.jessejamesphotography.ca/blog/weddings/white-oaks-wedding.html"
+              title="blog for wedding at white oaks"
             >
               <article class="blog-card">
                 <img
@@ -453,6 +461,7 @@
 
             <a
               href="https://www.jessejamesphotography.ca/blog/weddings/kurtz-orchards-weddings.html"
+              title="blog for wedding at kurtz orchards weddings"
             >
               <article class="blog-card">
                 <img
@@ -471,7 +480,9 @@
             </a>
           </div>
           <div class="blog-view-more">
-            <a href="https://www.jessejamesphotography.ca/blog"
+            <a
+              href="https://www.jessejamesphotography.ca/blog"
+              title="view more blog posts"
               >View More blogs...</a
             >
           </div>
@@ -547,7 +558,7 @@
       </div>
       <div class="packages-container">
         <div class="packages-side">
-          <h2 class="packages-title packages-heading side">Elopement</h2>
+          <h3 class="packages-title packages-heading side">Elopement</h3>
           <div class="packages-price packages-heading side">$399+</div>
           <div class="packages-content">
             <p>&#8226; 1 - 3 Hour Packages</p>
@@ -560,13 +571,13 @@
               <a
                 href="https://www.jessejamesphotography.ca/niagara-elopements.html"
                 title="Niagara elopement photography packages"
-                >More Info</a
+                >Elopement Info</a
               >
             </button>
           </div>
         </div>
         <div class="packages-middle">
-          <h2 class="packages-title packages-heading">Wedding</h2>
+          <h3 class="packages-title packages-heading">Wedding</h3>
           <div class="packages-price packages-heading side">$1899+</div>
           <div class="packages-content">
             <p>&#8226; 4 - 10 Hours Coverage</p>
@@ -581,14 +592,14 @@
               <a
                 href="https://www.jessejamesphotography.ca/niagara-weddings.html"
                 title="Niagara wedding photography packages"
-                >More Info</a
+                >Wedding Info</a
               >
             </button>
           </div>
         </div>
 
         <div class="packages-side">
-          <h2 class="packages-title packages-heading side">Family</h2>
+          <h3 class="packages-title packages-heading side">Family</h3>
           <div class="packages-price packages-heading side">$299+</div>
           <div class="packages-content">
             <p>&#8226; 2 Packages</p>
@@ -601,7 +612,7 @@
               <a
                 href="https://www.jessejamesphotography.ca/niagara-family.html"
                 title="Niagara family photography packages"
-                >More Info</a
+                >Family Info</a
               >
             </button>
           </div>
@@ -820,26 +831,45 @@
               <li>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-weddings.html"
+                  title="wedding information"
                   >Weddings</a
                 >
               </li>
               <li>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-elopements.html"
+                  title="elopement information"
                   >Elopements</a
                 >
               </li>
               <li>
                 <a
                   href="https://www.jessejamesphotography.ca/niagara-family.html"
+                  title="family information"
                   >Family</a
                 >
               </li>
-              <li><a href="#packages">Investment</a></li>
               <li>
-                <a href="https://www.jessejamesphotography.ca/blog">Blog</a>
+                <a
+                  href="#packages"
+                  title="photography prices"
+                  >Investment</a
+                >
               </li>
-              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="https://www.jessejamesphotography.ca/blog"
+                  title="view all blogs"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  title="link to contact form"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
           <div class="footer-right">
