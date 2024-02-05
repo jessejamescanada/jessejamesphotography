@@ -1165,6 +1165,11 @@ footer a {
   margin: 25px auto;
   justify-content: space-between;
 }
+.elopement-pkg-1,
+.elopement-pkg-2,
+.elopement-pkg-3 {
+  flex-basis: 30%;
+}
 .elopement-package-container h3 {
   color: rgb(180, 112, 24);
   font-size: 19px;
@@ -1174,7 +1179,8 @@ footer a {
   list-style: none;
 }
 .elopement-img-hide {
-  display: none;
+  width: auto;
+  margin: 30px 0px 10px 0px;
 }
 
 .dropdown:hover .dropbtn {

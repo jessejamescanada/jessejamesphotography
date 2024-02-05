@@ -139,30 +139,10 @@
   .winter-wedding-page img {
     width: 100%;
   }
-  /* .services-container,
-  .services-container .card {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 5px;
-    margin-top: 0px;
-  } */
-  /* .services-title {
-    font-size: 32px;
-    border: dashed 2px var(--btn-color);
-    border-radius: 5px;
-  } */
-  /* .services-text a {
-    color: #444;
-  } */
 
   .heading-containers p {
     padding: 8px;
   }
-
-  /* .who-title {
-    text-align: center;
-    padding: 5px 0px;
-  } */
 
   .navbar {
     display: flex;
@@ -196,9 +176,6 @@
   .who-content-container {
     margin-left: 0px;
   }
-  /* .mobile-hide {
-    display: none;
-  } */
 
   .mobile-IMG {
     display: block;
@@ -246,6 +223,11 @@
   }
   .testimonial p {
     margin-left: 10px;
+  }
+
+  /* elopement */
+  .elopement-img-hide {
+    width: 100%;
   }
 }
 
@@ -726,11 +708,7 @@
   .elopement-pkg-2 {
     margin: 10px 0;
   }
-  .elopement-img-hide {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-  }
+
   /* family */
   .family-photo {
     width: 100%;
