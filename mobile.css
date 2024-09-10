@@ -74,6 +74,8 @@
   }
   .services-list-content {
     flex-direction: column;
+    align-items: inherit;
+    width: 100%;
   }
   .wedding-service-wrapper {
     flex-direction: column;
