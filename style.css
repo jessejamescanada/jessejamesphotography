@@ -231,6 +231,7 @@ html {
 }
 .showcase-heading em {
   font-size: 24px;
+  width: 50%;
 }
 /* .showcase-content h4 a {
   cursor: pointer;
