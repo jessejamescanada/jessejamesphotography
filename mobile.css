@@ -72,6 +72,9 @@
     width: auto;
     margin: 50px auto;
   }
+  .services-list-content {
+    flex-direction: column;
+  }
   .wedding-service-wrapper {
     flex-direction: column;
   }
@@ -96,6 +99,7 @@
   }
   .list-button-wrapper h2 {
     display: block;
+    text-align: center;
   }
   .desktop-hide {
     display: flex;
@@ -103,6 +107,14 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
+  }
+  .service-left p,
+  .service-center p,
+  .service-right p {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    width: 75%;
+    text-align: center;
   }
 }
 
@@ -280,7 +292,9 @@
   .wedding-service-wrapper {
     flex-direction: column;
   }
-
+  .wedding-service-wrapper ul {
+    text-align: left;
+  }
   .wedding-service-wrapper ul li {
     font-size: 20px;
     font-weight: 500;

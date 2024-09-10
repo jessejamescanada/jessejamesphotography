@@ -367,7 +367,7 @@ html {
   width: 200px;
   height: 35px;
 }
-.service-tit h2 {
+.service-tit p {
   font-size: 42px;
   font-weight: 200;
   letter-spacing: 3px;
@@ -396,6 +396,8 @@ html {
 .service-right p {
   font-size: 16px;
   letter-spacing: 0.7px;
+  width: 50%;
+  text-align: center;
 }
 
 .service-left {
@@ -426,12 +428,12 @@ html {
 }
 
 .services-list-container {
-  padding: 75px 0px;
+  padding: 75px 10px;
   background: #e5ded8;
 }
 .services-list-content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 .wedding-service {
   display: flex;
@@ -441,6 +443,7 @@ html {
 }
 .wedding-service-wrapper {
   display: flex;
+  flex-direction: column;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -450,7 +453,8 @@ html {
   display: none;
 }
 .wedding-service-wrapper img {
-  width: 600px;
+  /* width: 600px; */
+  width: 100%;
 }
 .wedding-service-wrapper ul {
   margin-bottom: 15px;
@@ -465,19 +469,23 @@ html {
 }
 .title-image h2,
 .list-button-wrapper h2 {
-  font-size: 32px;
+  font-size: 26px;
   color: rgb(97, 97, 97);
   font-family: serif;
   letter-spacing: 1.1px;
+  padding: 8px 0px;
 }
 .list-button-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  text-align: center;
   color: #444;
+  /* padding: 0px 10px; */
 }
 .list-button-wrapper ul li {
   font-weight: 600;
+  padding: 0px 30px;
   letter-spacing: 0.8px;
 }
 .list-button-wrapper button {
