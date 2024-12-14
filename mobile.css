@@ -673,6 +673,7 @@
   .collapsible-menu ul {
     list-style-type: none;
     padding: 0;
+    width: 100%;
   }
   .collapsible-menu a {
     display: block;
