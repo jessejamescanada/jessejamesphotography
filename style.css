@@ -106,6 +106,9 @@ html {
   cursor: pointer;
   color: var(--btn-color);
 }
+.wedding-faq-wrapper p{
+  margin: 0 0 1.2rem; 
+}
 
 .top-btn {
   display: none;
@@ -206,7 +209,7 @@ html {
   padding-left: 50px;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 38px;
+  font-size: 34px;
   font-style: italic;
   font-family: 'Font Awesome 5 Brands';
 }
@@ -1077,6 +1080,38 @@ footer a {
   width: 80%;
   margin: auto;
 }
+/* WEDDINGS PAGE LISTS – inline checkmarks, tight spacing */
+.wedding-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.blog-content ul {
+  list-style: none;
+  margin: 1.2rem auto;
+  padding-left: 0;
+  text-align: left;
+}
+
+.blog-content ul li {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 
+  letter-spacing: 0.8px;
+  margin-bottom: 0.4rem;
+  color: #444;
+}
+
+/* inline checkmark before text */
+.blog-content ul li::before {
+  content: '✔';
+  display: inline-block;
+  margin-right: 6px; /* <-- controls gap between checkmark & text */
+  font-size: 0.9em;
+  color: #c7a06b;
+  font-weight: 700;
+}
+
 .blog-title {
   text-align: center;
   font-size: 30px;
