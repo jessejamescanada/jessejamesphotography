@@ -1,83 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://www.jessejamesphotography.ca/</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/niagara-weddings.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/niagara-elopements.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/niagara-family.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/2024-white-oaks-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/prince-of-wales-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/legends-niagara-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/stevensville-conservation-area.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/2023-niagara-wedding-review.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/honsberger-estate-winery-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-on-the-lake-christmas-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/engagements/oakes-garden-engagements.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-hornblower-elopement.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/weddings/the-niagara-wedding.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-tulip-engagements.html</loc>
-    <lastmod>2025-02-05T00:16:11+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.jessejamesphotography.ca/</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/niagara-weddings</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/niagara-elopements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/niagara-family</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/honsberger-estate-winery-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/prince-of-wales-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/legends-niagara-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/2024-white-oaks-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/madison-hotel-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/queenston-heights-winter-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-spring-proposal</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/balls-falls-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-valentines-proposal</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-on-the-lake-christmas-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/stevensville-conservation-area</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/oakes-garden-engagements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-hornblower-elopement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/the-niagara-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-tulip-engagements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-fog-elopement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/2023-niagara-wedding-review</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/kurtz-orchards-weddings</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/john-michaels-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/kehoe-and-kin</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/mommy-and-me-tutu</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/caistorville-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-beach-engagements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/white-oaks-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/dunnville-family</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/sunset-family</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-elopement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/beach-family-portraits</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/niagara-falls-engagement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/caistorville-engagements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/italian-hall-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/ontario-wildfire-engagement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/niagara-falls-family-photography</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/engagements/botanical-gardens-engagements</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-winter-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/niagara-falls-elopement</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/wainfleet-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/club-roma-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/chateau-des-charmes-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/family/niagara-beach-family-photography</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jessejamesphotography.ca/blog/weddings/queenston-heights-wedding</loc>
+  <lastmod>2025-12-05T02:10:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
