@@ -1,4 +1,9 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://jessejamesphotography.ca/sitemap.xml
+Disallow: /js/
+Disallow: /css/
+Disallow: /vendor/
+Disallow: /private/
+Allow: /
+
+# Direct Google to the map of your site
+Sitemap: https://www.jessejamesphotography.ca/sitemap.xml
