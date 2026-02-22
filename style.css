@@ -462,7 +462,9 @@ html {
 }
 .wedding-service-wrapper img {
   /* width: 600px; */
-  width: 100%;
+  /* width: 100%; */
+  max-width: 100%;
+  height: auto;
 }
 .wedding-service-wrapper ul {
   margin-bottom: 15px;
@@ -1001,6 +1003,9 @@ footer a {
 .blog-homepage-display {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 .blog-homepage-text {
   text-align: center;
@@ -1018,6 +1023,8 @@ footer a {
 .blog-homepage-display2 a {
   text-decoration: none;
   color: #333;
+  flex: 1 1 calc(25% - 20px); 
+  min-width: 250px;
 }
 .blog-card {
   display: flex;
