@@ -125,14 +125,17 @@ html {
   display: none;
 }
 
+nav{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px;
-  position: sticky;
-  top: 0;
-  z-index: 2;
   background-color: var(--primary-color);
 }
 
@@ -188,15 +191,22 @@ html {
 
 .showcase-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /* position: absolute;
   top: 91%;
   left: 90%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   color: #fff;
-  width: 20%;
+  /* width: 20%; */
+}
+.social-container {
+  margin: 5px 5px 10px 5px;
+}
+.social-container i {
+  margin: 0px 5px;
+  color: rgb(34, 34, 34);
 }
 .showcase-heading {
   display: flex;
@@ -244,13 +254,7 @@ html {
 .showcase-content h4 a:hover {
   color: #cc0000;
 } */
-.social-container {
-  margin: 5px;
-}
-.social-container i {
-  margin: 0px 5px;
-  color: rgb(255, 255, 255);
-}
+
 .social-container-non-homepage i {
   color: #777;
 }
@@ -891,7 +895,7 @@ footer {
   flex-basis: 25%;
 }
 .footer-image-text img {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   width: 60%;
 }
 .footer-image-text p {
@@ -1023,7 +1027,7 @@ footer a {
 .blog-homepage-display2 a {
   text-decoration: none;
   color: #333;
-  flex: 1 1 calc(25% - 20px); 
+  flex: 01 1 calc(25% - 20px); 
   min-width: 250px;
 }
 .blog-card {
@@ -1062,9 +1066,13 @@ footer a {
   height: 200px;
 }
 .blog-card img {
-  width: auto;
+  /* width: auto;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 5px; */
+  width: 100%;       /* Fills the flex-item container */
+  height: 200px;     /* Your desired height */
+  object-fit: cover; /* Crops the edges so the image isn't squashed */
+  display: block;
 }
 .blog-article-text2 {
   position: absolute;

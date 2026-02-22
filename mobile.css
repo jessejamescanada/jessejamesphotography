@@ -260,7 +260,7 @@
 @media (max-width: 500px) {
   html,
   body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     position: relative;
   }
   body {
@@ -475,7 +475,7 @@
     width: 300px;
     height: auto;
     padding: 10px 0px;
-    margin-top: 40px;
+    margin: auto;
     top: 85%;
     left: 50%;
   }
@@ -678,8 +678,8 @@
     /* padding: 0px 30px; */
     border-bottom: 3px solid var(--btn-color);
     width: 100%;
-    position: fixed;
-    top: 0%;
+    /* position: fixed;
+    top: 0%; */
   }
   .collapsible-menu ul {
     list-style-type: none;
