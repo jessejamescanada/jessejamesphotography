@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Niagara Wedding Photographer | Jesse James Photography</title>
     <!-- schema -->
     <script type="application/ld+json">
       {
@@ -102,27 +108,22 @@
       property="og:image:height"
       content="1024"
     />
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+
     <link
       rel="preload"
       as="image"
       href="img/niagara-wedding-photographer3.webp"
+      media="(min-width: 651px)"
+      fetchpriority="high"
     />
+
     <link
       rel="preload"
       as="image"
-      href="img/white-oaks-wedding.jpg"
+      href="img/white-oaks-wedding.webp"
+      media="(max-width: 650px)"
+      fetchpriority="high"
     />
-    <link
-      rel="image_src"
-      type="image/jpeg"
-      href="https://www.jessejamesphotography.ca/img/Honsberger_wedding.jpg"
-    />
-
     <link
       rel="stylesheet"
       href="style.css"
@@ -139,25 +140,11 @@
       src="https://kit.fontawesome.com/3b56dc2a5c.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
 
-      gtag('config', 'G-XNB3J53ZR2')
-    </script>
     <meta
       name="google-site-verification"
       content="bfGmT1arc5rGJYAq_hG9Fr6qeqehATojU4wM_veQMUg"
     />
-    <title>Niagara Wedding Photographer | Jesse James Photography</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -264,6 +251,7 @@
           <img
             src="img/niagara-wedding-photographer3.webp"
             alt="Bride and groom sharing a kiss at a Niagara wedding, photographed by Jesse James Photography"
+            fetchpriority="high"
           />
         </picture>
         <div class="showcase-heading">
@@ -1070,6 +1058,20 @@
     >
       <i class="fas fa-envelope"></i>
     </button>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-XNB3J53ZR2')
+    </script>
   </body>
   <script
     src="./app.js"
