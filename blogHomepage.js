@@ -3,9 +3,9 @@ const allButton = document.querySelector('.blog-all-button')
 const familyButton = document.querySelector('.blog-family-button')
 const engagementButton = document.querySelector('.blog-engagement-button')
 
-const allWeddings = document.querySelectorAll('.wedding-post')
-const allFamilies = document.querySelectorAll('.family-post')
-const allEngagements = document.querySelectorAll('.engagement-post')
+const allWeddings = document.querySelectorAll('a:has(.wedding-post)')
+const allFamilies = document.querySelectorAll('a:has(.family-post)')
+const allEngagements = document.querySelectorAll('a:has(.engagement-post)')
 // blog filters
 weddingButton.addEventListener('click', weddingClick)
 familyButton.addEventListener('click', familyClick)

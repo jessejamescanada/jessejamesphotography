@@ -1,5 +1,5 @@
 .hide-blog-post {
-  display: none;
+  display: none !important;
 }
 .show {
   display: flex;

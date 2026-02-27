@@ -1209,21 +1209,10 @@ footer a {
 }
 
 .blog-slide-head-img img {
-  /* width: auto;
-  height: auto; */
+
   width: 100%;
-    /* Lower bound: 400px (so it's never too small)
-       Preferred: 65vh (65% of the user's screen height)
-       Upper bound: 900px (so it doesn't become a skyscraper on 5K monitors)
-    */
     height: clamp(400px, 65vh, 900px); 
     object-fit: cover;
-    
-    /* This is huge for photographers: 
-       If the crop happens, where should it focus? 
-       'center center' is default, but 'center 30%' often preserves 
-       the couple's heads better in vertical crops. 
-    */
     object-position: center 30%;
 }
 .blog-slide img {
