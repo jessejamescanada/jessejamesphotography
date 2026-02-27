@@ -256,13 +256,6 @@
   }
 }
 
-/* 400px */
-@media (max-width: 400px) {
-  .service-inf h2 {
-    font-size: 20px;
-  }
-}
-
 /* 500px */
 @media (max-width: 500px) {
   html,
@@ -757,5 +750,12 @@
   .review-2023 {
     padding-top: 25px;
     padding-bottom: 0px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .service-inf h2 {
+    font-size: 20px;
   }
 }

@@ -1456,3 +1456,767 @@ margin: 0px 5px;
   font-weight: 700;
   letter-spacing: 2px;
 }
+
+/* 1450px */
+@media (max-width: 1450px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+/* 1280px */
+@media (max-width: 1290px) {
+  .blog-card img {
+    height: 160px;
+  }
+}
+/* 1199px */
+@media (max-width: 1199px) {
+  .showcase-heading {
+    left: 20%;
+  }
+  .showcase-heading button {
+    display: none;
+  }
+  .blog-card img {
+    height: 200px;
+  }
+  .blog-homepage-display {
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .blog-homepage-display a {
+    width: 40%;
+  }
+
+  .wedding-slide {
+    display: none;
+  }
+  .packages-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .packages-side {
+    margin-top: 0;
+  }
+  /* .services-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+  }
+  .services-container img {
+    width: auto;
+    height: auto;
+  } */
+  .testimonial-content {
+    width: auto;
+  }
+  .testimonial {
+    flex-direction: column;
+  }
+  .testimonial-img-container {
+    margin-bottom: 15px;
+  }
+  .sticky {
+    position: relative;
+    padding: 20px 2px;
+  }
+  .socialMedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: 50px auto;
+  }
+  .services-list-content {
+    flex-direction: column;
+    align-items: inherit;
+    width: 100%;
+  }
+  .wedding-service-wrapper {
+    flex-direction: column;
+  }
+  .list-button-wrapper {
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .ccField-prepend {
+    width: auto;
+  }
+  .ccField-prepend input {
+    width: auto;
+  }
+  .ccField-prepend textarea {
+    width: auto;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .title-image h2 {
+    display: none;
+  }
+  .list-button-wrapper h2 {
+    display: block;
+    text-align: center;
+  }
+  .desktop-hide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .service-left p,
+  .service-center p,
+  .service-right p {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    width: 75%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 968px) {
+  .showcase-heading {
+    left: 25%;
+
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .family-photo {
+    width: 100%;
+  }
+  .blog-homepage-display2 {
+    width: 100%;
+    justify-content: center;
+  }
+  .blog-homepage-display a {
+    width: 100%;
+  }
+  .blog-slide-head-img img {
+    width: 100%;
+  }
+  .blog-slide-head-img .small-blog {
+    width: auto;
+  }
+  .wedding-vert {
+    display: none;
+  }
+  .winter-wedding-page {
+    flex-direction: column;
+    width: 100%;
+  }
+  .winter-wedding-page img {
+    width: 100%;
+  }
+
+  .heading-containers p {
+    padding: 8px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .showcase-container img {
+    object-fit: cover;
+  }
+
+  .showcase-content {
+    left: 85%;
+    top: 88%;
+    width: 25%;
+  }
+
+  .about-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .who-content-container {
+    margin-left: 0px;
+  }
+
+  .mobile-IMG {
+    display: block;
+  }
+  .packages-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+  .ccForm {
+    width: auto;
+    padding: 20px;
+  }
+  .ccField-prepend input,
+  .ccField-prepend textarea {
+    width: auto;
+  }
+
+  .footer-image-text img {
+    width: 90%;
+  }
+
+  .footer-center h4 {
+    font-size: 20px;
+  }
+
+  /* blog */
+  .blog-homepage-display {
+    flex-direction: column;
+  }
+  #share-buttons {
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .share-p {
+    font-size: 1.5rem;
+    padding-right: 6px;
+  }
+  .testimonial-container {
+    padding: 0px;
+  }
+  .testimonial-content {
+    padding: 0px 10px;
+  }
+  .testimonial p {
+    margin-left: 10px;
+  }
+
+  /* elopement */
+  .elopement-img-hide {
+    width: 100%;
+  }
+}
+
+/* Mobile specific tweak */
+@media (max-width: 800px) {
+  .blog-slide-head-img img {
+    height: 350px; /* Or whatever looks best for your mobile hero export */
+  }
+}
+
+
+
+/* 500px */
+@media (max-width: 500px) {
+  html,
+  body {
+    /* overflow-x: hidden; */
+    position: relative;
+  }
+  body {
+    width: auto;
+  }
+  .testimonialss p {
+    font-size: 12px;
+  }
+  .blog-card {
+    height: 400px;
+  }
+  .blog-slide img {
+    height: 100%;
+  }
+  .blog-slide-head-img .small-blog {
+    width: 100%;
+  }
+  .blog-category-container {
+    padding: 0;
+  }
+  .category-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .button-category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .service-tit {
+    margin-bottom: 0px;
+  }
+
+  .service-inf {
+    flex-direction: column;
+  }
+
+  .wedding-service-wrapper {
+    flex-direction: column;
+  }
+  .wedding-service-wrapper ul {
+    text-align: left;
+  }
+  .wedding-service-wrapper ul li {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .title-image img:first-child {
+    /* margin-right: 100px; */
+  }
+
+  .title-image h2 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: #444;
+    margin: 5px 0px;
+  }
+  .title-image h2 span {
+    display: inline-block;
+  }
+  /* .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  } */
+  /* .wedding-service-wrapper {
+    padding: 0px 30px;
+  }
+  .elopement-service {
+    padding: 0px 30px;
+  } */
+  .wedding-service-wrapper img {
+    width: auto;
+  }
+
+  .list-button-wrapper {
+    align-items: center;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .list-button-wrapper button {
+    padding: 15px 25px;
+  }
+
+  /* .services-title {
+    font-size: 32px;
+    border: dashed 2px var(--btn-color);
+    border-radius: 5px;
+  } */
+  /* .services-text a {
+    color: #444;
+  } */
+
+  .heading-containers p {
+    padding: 12px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+  }
+  .testimonials-p {
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .socialMedia {
+    /* display: none; */
+    /* width: 350px; */
+  }
+
+  .portfolio-h3 {
+    display: none;
+  }
+
+  .fb-page {
+    width: auto;
+    padding: 8px 0px;
+  }
+
+  /* wedding page */
+  .wedding-page {
+    display: block;
+  }
+  .wedding-page img {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .winter-wedding-page {
+    /* flex-direction: column; */
+    height: auto;
+  }
+
+  .wedding-vert {
+    /* display: none; */
+  }
+  .wedding-landscape {
+    /* display: none; */
+  }
+
+  .wedding-slide {
+    display: none;
+  }
+
+  .top-btn {
+    padding: 5px;
+    margin: 0;
+    width: 75px;
+    opacity: 0.8;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px 40px 0px 40px; */
+    width: auto;
+    padding: 0;
+  }
+  .navbar img {
+    display: none;
+  }
+  /* .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: auto;
+  } */
+  .navbar .desktop-nav {
+    display: none;
+  }
+  .navbar .fullScreen-hide {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .navbar .fullScreen-hide a {
+    margin: 0px 8px;
+    color: #daad86;
+  }
+
+  .navbar li a {
+    font-family: serif;
+  }
+
+  .sticky {
+    position: relative;
+    padding: 20px 2px;
+  }
+  #showcase1 img {
+    height: 90vh;
+    width: 100%;
+  }
+  .showcase-container img {
+    object-fit: cover;
+  }
+  .showcase-content {
+    width: 300px;
+    height: auto;
+    padding: 10px 0px;
+    margin: auto;
+    top: 85%;
+    left: 50%;
+  }
+
+  .showcase-heading {
+    top: 65%;
+    left: 45%;
+  }
+  .showcase-heading em {
+    width: 100%;
+  }
+
+  .showcase-content h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .about-container {
+    margin-top: 30px;
+    padding: 75px 0px;
+  }
+  .about-container img {
+    /* display: none; */
+  }
+
+  .who-content-container {
+    margin: 0;
+  }
+  /* .who-title {
+    text-align: center;
+    padding: 5px 0px;
+  } */
+  .about-content {
+    width: auto;
+    padding: 10px;
+  }
+  .about-content h2 {
+    text-align: center;
+  }
+  .about-content p {
+    text-align: center;
+    width: 100%;
+  }
+  /* .services-container,
+  .services-container .card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin-top: 0px;
+  }
+  .services-heading h2 {
+    padding-top: 20px;
+  } */
+
+  /* .mobile-hide {
+    display: none;
+  } */
+
+  .mobile-IMG {
+    display: block;
+  }
+
+  /* .services-container > *:first-child,
+  .services-container > *:nth-child(2),
+  .services-container > *:nth-child(3),
+  .services-container > *:last-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-container .card img {
+    margin-top: 25px;
+    height: 250px;
+    width: 100%;
+  } */
+
+  .packages-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0px;
+    background-color: none;
+    box-shadow: none;
+  }
+  .packages-side,
+  .packages-middle {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 0px;
+  }
+
+  /* #testimonials,
+  .showcase4 {
+    display: none;
+  } */
+
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .slide img {
+    margin-bottom: 5px;
+  }
+
+  .showcase2 .showcase-container,
+  .showcase3 .showcase-container {
+    height: 100px;
+  }
+  .showcase2 .showcase-content h3,
+  .showcase3 .showcase-content h3,
+  .showcase5 .showcase-content h3 {
+    color: black;
+  }
+
+  .showcase2 img,
+  .showcase3 img,
+  .showcase5 img {
+    display: none;
+  }
+
+  .contact-container {
+    width: 50px;
+  }
+  .ccform {
+    padding: 20px;
+    width: auto;
+  }
+  .ccField-prepend {
+    width: auto;
+  }
+  .ccField-prepend input,
+  .ccField-prepend textarea {
+    width: auto;
+  }
+
+  /* footer */
+
+  .footer-content {
+    flex-direction: column;
+    padding: 25px 10px 10px 10px;
+  }
+  .footer-image-text {
+    margin-bottom: 30px;
+  }
+  .footer-image-text img {
+    width: 80%;
+  }
+  .footer-center {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .footer-center ul {
+    align-items: center;
+  }
+  .footer-right img {
+    margin: 0px 5px;
+  }
+  .copyright p {
+    font-size: 16px;
+  }
+
+  /* blog */
+  .blog-homepage-container {
+    padding-bottom: 0px;
+  }
+  .blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+    margin: auto;
+  }
+  .blog-gallery-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-slide-head-img {
+    padding-top: 70px;
+    width: 100%;
+  }
+
+  .blog-slide-head-img img {
+    width: 100%;
+    height: auto;
+  }
+  .blog-slide-img {
+    width: 100%;
+  }
+
+  .collapsible-menu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px 30px; */
+    border-bottom: 3px solid var(--btn-color);
+    width: 100%;
+    /* position: fixed;
+    top: 0%; */
+  }
+  .collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  .collapsible-menu a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .collapsible-menu label {
+    /* font-family: 'Courgette', cursive; */
+    /* font-style: italic; */
+    font-size: 30px;
+    font-weight: 100;
+    display: block;
+    cursor: pointer;
+    /* background: url('/public/logo192.png') no-repeat left center; */
+    padding: 10px 0 10px 0px;
+    text-align: center;
+    color: #555;
+    font-family: serif;
+    letter-spacing: 1.3px;
+  }
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  input#menu {
+    display: none;
+  }
+  input:checked + label {
+    /* background-image: url('/public/logo192.png'); */
+  }
+  .menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    /* padding: 0 0 0 50px; */
+  }
+  /* Toggle Effect */
+  input:checked ~ label {
+    /* background-image: url('/public/logo192.png'); */
+  }
+  input:checked ~ .menu-content {
+    max-height: 100%;
+  }
+  #collapse {
+    display: none;
+  }
+  /* elopement page */
+  .elopement-package-container {
+    flex-direction: column;
+  }
+  .elopement-pkg-1,
+  .elopement-pkg-2 {
+    margin: 10px 0;
+  }
+
+  /* family */
+  .family-photo {
+    width: 100%;
+  }
+
+  /* 2023 review */
+  .review-2023 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .service-inf h2 {
+    font-size: 20px;
+  }
+}
