@@ -249,6 +249,13 @@
   }
 }
 
+/* Mobile specific tweak */
+@media (max-width: 800px) {
+  .blog-slide-head-img img {
+    height: 350px; /* Or whatever looks best for your mobile hero export */
+  }
+}
+
 /* 400px */
 @media (max-width: 400px) {
   .service-inf h2 {

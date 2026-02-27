@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>
+      Niagara Wedding Photographer | Packages & Portfolio | Jesse James
+      Photography
+    </title>
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -8,7 +18,7 @@
         "name": "Jesse James Photography",
         "description": "Award-winning wedding photography packages in Niagara. Specializing in candid and timeless images for weddings in NOTL, Niagara Falls, and St. Catharines.",
         "url": "https://www.jessejamesphotography.ca/niagara-weddings.html",
-        "image": "https://www.jessejamesphotography.ca/img/Honsberger_wedding.jpg",
+        "image": "https://www.jessejamesphotography.ca/img/weddingPort/niagara-wedding_photographer.webp",
         "telephone": "+17739963738",
         "email": "photography.jesse.james@gmail.com",
         "priceRange": "$1899 - $3500",
@@ -59,7 +69,6 @@
         ]
       }
     </script>
-
     <meta
       name="description"
       content="Wedding photography packages, pricing and portfolio from Niagara wedding photographer Jesse James. Candid, timeless wedding photos across Niagara Falls, Niagara-on-the-Lake, St. Catharines and the Niagara region."
@@ -86,38 +95,39 @@
     />
     <meta
       property="og:image"
-      content="https://www.jessejamesphotography.ca/img/Honsberger_wedding.jpg"
+      content="https://www.jessejamesphotography.ca/img/weddingPort/niagara-wedding_photographer.webp"
     />
     <meta
       property="og:image:width"
-      content="1024"
+      content="1200"
     />
     <meta
       property="og:image:height"
-      content="1024"
+      content="800"
     />
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
+    <link
+      rel="preload"
+      as="image"
+      href="img/weddingPort/niagara-wedding_photographer.webp"
+      media="(min-width: 801px)"
+      fetchpriority="high"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap"
-      rel="stylesheet"
-    /> -->
+    <link
+      rel="preload"
+      as="image"
+      href="img/weddingPort/niagara-wedding_photographer_m.webp"
+      media="(max-width: 800px)"
+      fetchpriority="high"
+    />
     <link
       rel="image_src"
-      type="image/jpeg"
-      href="https://www.jessejamesphotography.ca/img/Honsberger_wedding.jpg"
+      type="image/webp"
+      href="https://www.jessejamesphotography.ca/img/weddingPort/niagara-wedding_photographer.webp"
     />
     <link
       rel="canonical"
       href="https://www.jessejamesphotography.ca/niagara-weddings.html"
     />
-    <script
-      src="https://kit.fontawesome.com/3b56dc2a5c.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
       href="../../style.css"
@@ -126,24 +136,6 @@
       rel="stylesheet"
       href="../../mobile.css"
     />
-    <!-- Google tag (gtag.js) -->
-    <!-- <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-
-      gtag('config', 'G-XNB3J53ZR2')
-    </script> -->
-    <title>
-      Niagara Wedding Photographer | Packages & Portfolio | Jesse James
-      Photography
-    </title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -250,16 +242,36 @@
     </nav>
 
     <div class="blog-slide-head-img">
-      <img
-        src="/img/wedding-photographer-niagara.webp"
-        alt="Niagara Wedding Photographer"
-      />
+      <picture>
+        <source
+          media="(min-width: 801px)"
+          srcset="img/weddingPort/niagara-wedding_photographer.webp"
+          width="1200"
+          height="600"
+        />
+
+        <source
+          media="(max-width: 800px)"
+          srcset="img/weddingPort/niagara-wedding_photographer_m.webp"
+          width="800"
+          height="533"
+        />
+
+        <img
+          src="img/weddingPort/niagara-wedding_photographer.webp"
+          alt="Niagara Wedding Photographer - Romantic couple portrait"
+          width="1200"
+          height="600"
+          fetchpriority="high"
+          loading="eager"
+        />
+      </picture>
     </div>
     <div class="blog-container">
       <div class="blog-content">
         <div class="heading-containers">
           <h1>Niagara Wedding Photographer</h1>
-          <div id="share-buttons">
+          <!-- <div id="share-buttons">
             <a
               class="facebook"
               target="_blank"
@@ -270,7 +282,7 @@
               target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
-          </div>
+          </div> -->
           <img
             src="/img/underline.png"
             alt="underline"
@@ -295,9 +307,11 @@
         </p>
         <div class="winter-wedding-page">
           <img
-            class="lazy"
-            data-src="/img/queenston-heights-wedding.webp"
-            alt="queenston heights wedding"
+            src="/img/weddingPort/niagara-wedding-photographer.webp"
+            alt="bride and groom kissing in front of Niagara Falls during their elopement"
+            loading="lazy"
+            width="700"
+            height="466"
           />
         </div>
         <h2>How I Photograph a Wedding Day</h2>
@@ -332,24 +346,30 @@
         <br />
         <div class="winter-wedding-page">
           <img
+            src="/img/weddingPort/pillar-and-post-wedding-photography.webp"
+            alt="bride and groom at pillar and post wedding gardens in NOTL"
             class="wedding-vert lazy"
-            data-src="/img/Barn_wedding.jpg"
-            alt="local niagara wedding photography"
-            class="wedding-vert"
+            loading="lazy"
+            width="251"
+            height="376"
           />
           <img
-            class="lazy"
-            data-src="/blog/assets/clubRoma/1 (8).webp"
-            alt="Club Roma groom crying"
+            src="/img/weddingPort/club-roma-outdoor-ceremony.webp"
             class="wedding-landscape"
+            loading="lazy"
+            width="564"
+            height="376"
+            alt="Club Roma outdoor garden ceremony groom crying"
           />
         </div>
 
         <div class="blog-slide wedding-page">
           <img
-            class="lazy"
-            data-src="/blog/assets/wainfleet/1 (246 of 532).webp"
-            alt="happy bride and groom"
+            src="/img/weddingPort/wainfleet-wedding.webp"
+            loading="lazy"
+            width="300"
+            height="449"
+            alt="wainfleet wedding bride and groom kissing"
           />
         </div>
         <div class="heading-containers">
@@ -384,27 +404,28 @@
         </p>
         <div class="winter-wedding-page">
           <img
-            class="lazy"
-            data-src="img/Honsberger_wedding.jpg"
-            alt="Honsberger Wedding Photos"
+            src="/img/weddingPort/Honsberger_wedding.webp"
+            alt="Bride and groom at Honsberger Estate Winery wedding photography"
+            loading="lazy"
+            width="700"
+            height="466"
           />
         </div>
         <div class="heading-containers">
-          <div class="heading-containers">
             <h2>Winter Weddings in Niagara</h2>
             <img
               src="/img/underline.png"
               alt="underline"
               class="underline"
             />
-          </div>
         </div>
-
         <div class="blog-slide wedding-page">
           <img
-            class="lazy"
-            data-src="/img/Bridesmaids_winter_wedding.jpg"
-            alt="Niagara Winter wedding photography"
+            src="/img/weddingPort/niagara_elopement.webp"
+            alt="winter wedding photography in niagara"
+            loading="lazy"
+            width="700"
+            height="466"
           />
         </div>
         <p>
@@ -417,9 +438,11 @@
         </p>
         <div class="winter-wedding-page">
           <img
-            class="lazy"
-            data-src="/img/niagara_elopement.jpg"
-            alt="Winter wedding niagara"
+            src="/img/weddingPort/bridesmaids-botanical-gardens-niagara.webp"
+            alt="botanical gardens wedding photography in niagara"
+            loading="lazy"
+            width="700"
+            height="466"
           />
         </div>
         <div class="heading-containers">
@@ -431,14 +454,6 @@
               class="underline"
             />
           </div>
-        </div>
-
-        <div class="wedding-page">
-          <img
-            class="lazy"
-            data-src="/img/niagara_elope.jpg"
-            alt="Niagara Falls Engagement Photography"
-          />
         </div>
         <p>
           I also offer standalone
@@ -504,7 +519,7 @@
         <div class="heading-containers">
           <h2>Wedding Portfolio</h2>
           <img
-            data-src="/img/underline.png"
+            src="/img/underline.png"
             alt=""
             role="presentation"
             class="underline lazy"
@@ -521,300 +536,404 @@
         <div class="gallery-container">
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/white-oaks-wedding.jpg"
-              alt="romantic white oaks wedding"
+              src="/img/weddingPort/white-oaks-wedding.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="white oaks wedding photography niagara on the lake"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/blog/assets/wainfleet/1 (201 of 532).webp"
-              alt="backyard wedding wainfleet"
+              src="/img/weddingPort/stevensville-conservation-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="stevensville conservation area outdoor wedding ceremony"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/Kurtz_orchard_wedding.jpg"
-              alt="Kurtz Orchard Wedding"
+              src="/img/weddingPort/Kurtz_orchard_wedding.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="kurtz orchards wedding photography under the stars"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/maple_meadows_farm_wedding.jpg"
-              alt="Maple Meadows Wedding"
+              src="/img/weddingPort/maple_meadows_farm_wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="Maple Meadows Farm wedding with horses behind bride and groom"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/blog/assets/2023/bridedaughtermirror_m.jpg"
-              alt="daughter wearing wedding dress"
+              src="/img/weddingPort/loft-at-maple-meadows.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bride getting ready in the loft at Maple Meadows Farm"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/celebrating-wedding-party.webp"
-              alt="wedding party celebrating with champagne"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/1 (12).jpg"
-              alt="morningstar mill wedding"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/hornblower-wedding.webp"
-              alt="wedding on hornblower cruise in niagara falls"
+              src="/img/weddingPort/club-roma-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bride and groom sunset photo at Club Roma in St Catharines"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/white-oaks-wedding-kiss.webp"
-              alt="bride and groom kissing at botanical gardens"
+              src="/img/weddingPort/sunset-wedding-botanical-gardens-niagara-falls.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="groom kissing brides cheek at Botanical Gardens in Niagara Falls"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (19).jpg"
-              alt="vineland estates elopement"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/blog/assets/lc/16_m.jpg"
-              alt="couple kissing after ceremony at kehoe and kin"
+              src="/img/weddingPort/kehoe-and-kin-wedding-photography.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="kehoe and kin wedding party celebrating after outdoor ceremony"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/Wedding/niagara-wedding-photography.jpg"
-              alt="niagara on the lake wedding photo"
+              src="/img/weddingPort/bridal-portrait-kehoe-and-kin.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bridal portrait photography niagara wedding"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Bridesmaids_winter_wedding.jpg"
-              alt="bridesmaids with bride walking"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Cherry_avenue_farm_wedding.jpg"
-              alt="cherry avenue farm wedding"
+              src="/img/weddingPort/kehoe-kin-wedding-reception-photos.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="kehoe and kin wedding reception in wainfleet"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/blog/assets/lc/4.jpg"
-              alt="bride overlooking niagara falls"
+              src="/img/weddingPort/living-water-wayside-chapel-wedding-ceremony.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="Living water wayside chapel wedding ceremony in niagara on the lake"
+            />
+          </div>
+          <div class="blog-slide">
+            <img
+              src="/img/weddingPort/bridal-portrait-botanical-gardens-niagara-falls.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bridal portrait with long veil at botanical gardens in niagara falls"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/fall-wedding-niagara-botanical-gardens.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="fall niagara wedding photography bride and groom kissing"
+            />
+          </div>
+          <div class="blog-slide">
+            <img
+              src="/img/weddingPort/maple-meadows-farms-outdoor-wedding-ceremony.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="outdoor wedding ceremony at maple meadows farm"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/notl-wedding-photographer.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bride and groom kissing with reflection in the puddle in niagara on the lake"
             />
           </div>
 
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (21).jpg"
-              alt=" wedding rainbow"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/blog/assets/cawedding/52.jpg"
-              alt="bride and groom kissing at marina"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/blog/assets/2023/a (14).jpg"
-              alt="groom and daughter hugging"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/club-roma-wedding.jpg"
-              alt="John Michaels wedding "
+              src="/img/weddingPort/st-catharines-wedding-photography.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bride and groom surrounded by flowers at pilar and post in NOTL"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/bride-rose-garden.webp"
-              alt="bride portrait at rose garden in niagara falls"
+              src="/img/weddingPort/niagara-wedding-photograher-bride-groom-walking.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="notl wedding photography bride and groom walking down cobblestone street"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/blog/assets/cawedding/12.jpg"
-              alt="bride with daughters"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/blog/assets/13thStreet/4.jpg"
-              alt="dogs at wedding at 13th street winery"
+              src="/img/weddingPort/notl-wedding-photography.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bride and groom laughing notl wedding photographer"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/blog/assets/kurtz-orchards-wedding/27_m.jpg"
-              alt="kurtz orchard wedding"
+              src="/img/weddingPort/maple-meadows-farms-bridal-portrait.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="black and white bridal portrait at Maple Meadows Farm"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/bridesmaids.webp"
-              alt="bridesmaids helping bride with her dress at white oaks"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/1 (13).jpg"
-              alt="niagara vineyard elopement"
+              src="/img/weddingPort/outdoor-wedding-ceremony-queenston-heights.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bride walking down aisle outdoor wedding ceremony Queenston Heights"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (18).jpg"
-              alt="fallsview casino wedding"
+              src="/img/weddingPort/prince-of-wales-wedding-bride-and-groom.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="prince of wales notl wedding pictures in gardens"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/bride-white-oaks.webp"
-              alt="bride getting ready at white oaks "
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/legends-niagara-wedding.webp"
-              alt="legends niagara wedding ceremony"
+              src="/img/weddingPort/the-tower-hotel-fallsview-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="The Tower hotel fallsview wedding"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (9).jpg"
-              alt="niagara  wedding"
+              src="/img/weddingPort/row-of-trees-wedding-botanical-gardens.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="botanical gardens rows of trees niagara falls wedding"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/niagara-falls-wedding.webp"
-              alt="bride and groom dancing in front of niagara falls"
+              src="/img/weddingPort/the-delphi-niagara-falls-wedding-reception.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="bride and groom dancing during wedding reception at the Delphi in Niagara Falls"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/blog/assets/2023/a (20).jpg"
-              alt="pillar and post wedding gardens"
+              src="/img/weddingPort/pillar-and-post-gardens-wedding.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="wedding at the Pillar and Post gardens in niagara on the lake"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (5).jpg"
-              alt="chateau des charmes wedding"
+              src="/img/weddingPort/notl-prince-of-wales-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="Prince of wales niagara on the lake christmas wedding"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/niagara-wedding-bride-groom-walking.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bride and groom walking in Niagara Falls"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Pillar_and_post_wedding.jpg"
-              alt="Pillar and post wedding"
+              src="/img/weddingPort/sue-ann-staff-estate-winery-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="sue-anne staff estate winery wedding photography bridal portrait"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/inn-on-the-twenty-wedding-photography.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="Inn on the Twenty wedding photography"
+            />
+          </div>
+          <div class="blog-slide">
+            <img
+              src="/img/weddingPort/white-oaks-outdoor-wedding-ceremony.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="outdoor wedding ceremony at white oaks"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/bride-groom-kissing-botanical-wedding.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bride and groom kissing after wedding ceremony niagara falls"
+            />
+          </div>
+          <div class="blog-slide">
+            <img
+              src="/img/weddingPort/konzelman-winery-wedding-sunset.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="Konzelmann winery sunset wedding silhouette"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/bride-and-groom-rings.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="close up of brides and grooms rings"
             />
           </div>
 
-          <div class="blog-slide vert">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/bridal-portrait.jpg"
-              alt="riverbend inn wedding niagara on the lake"
-            />
-          </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/Wedding/1 (22).jpg"
-              alt="peninsula lakes golf course wedding"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/1 (11).jpg"
-              alt="niagara parks elopement"
+              src="/img/weddingPort/legends-niagara-bride-and-bridesmaids.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="brides first look with bridesmaids at Legends golf course"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/botanical-gardens-niagara.webp"
-              alt="wedding at botanical gardens in niagara falls"
+              src="/img/weddingPort/bride-and-groom-in-rain.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bride and groom in rain on their wedding in niagara on the lake"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/img/white-oaks-reception.webp"
-              alt="white oaks wedding"
-            />
-          </div>
-          <div class="blog-slide">
-            <img
-              class="lazy"
-              data-src="/img/Wedding/1 (3).jpg"
-              alt="maple meadows farm wedding with animals"
+              src="/img/weddingPort/john-michaels-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="groom kissing bride on cheek in the gardens at John Michaels Banquet"
             />
           </div>
           <div class="blog-slide vert">
             <img
-              class="lazy"
-              data-src="/img/Wedding/crowne-plaza-wedding (2).jpg"
-              alt="Bride portrait inside crowne plaza hotel niagara falls"
+              src="/img/weddingPort/bridal-portrait-white-oaks.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="black and white bridal portrait in white oaks hotel room"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/blog/assets/2023/40.jpg"
-              alt="bridesmaids"
+              src="/img/weddingPort/honsberger-wedding-photography.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="candid of bride hugging groom at Honsberger winery"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/vineland-estates-wedding-photography.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="vineland estates wedding photography"
             />
           </div>
           <div class="blog-slide">
             <img
-              class="lazy"
-              data-src="/blog/assets/2023/12002_m.jpg"
-              alt="kehoe and kin barn"
+              src="/img/weddingPort/hernder-estates-wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="niagara wedding portrait of bride and groom"
             />
           </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/bridal-portrait-niagara.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="bridal portrait at the botanical gardens in niagara falls"
+            />
+          </div>
+           <div class="blog-slide">
+           <img
+              src="/img/weddingPort/Cherry_avenue_farm_wedding.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="Cherry Avenue Farms wedding photography"
+            />
+          </div>
+          <div class="blog-slide vert">
+            <img
+              src="/img/weddingPort/vineyard-wedding-niagara.webp"
+              loading="lazy"
+              width="533"
+              height="799"
+              alt="vineyard wedding in niagara on the lake"
+            />
+          </div>
+          <div class="blog-slide">
+            <img
+              src="/img/weddingPort/balls-falls-wedding-photographer.webp"
+              loading="lazy"
+              width="500"
+              height="333"
+              alt="balls falls wedding two brides"
+            />
+          </div>
+          </div>
+         
         </div>
         <!-- </div> -->
       </section>
@@ -827,7 +946,7 @@
     >
       <div class="contact-content">
         <div class="ccForm">
-          <h3>Contact Me</h3>
+          <h3>Inquire About Your Niagara Wedding</h3>
           <form
             name="Jesse James Photography"
             method="POST"
@@ -946,19 +1065,13 @@
       </div>
       <div class="copyright">
         <p>© 2026 Jesse James Photography</p>
-        <p>Niagara Wedding Photographer</p>
+   <p><a href="/">Niagara Wedding Photographer</a></p>
       </div>
     </footer>
-    <button
-      class="btn top-btn"
-      type="button"
-      aria-label="Scroll to contact form"
-    >
-      <i class="fas fa-envelope"></i>
-    </button>
+    <script
+      src="https://kit.fontawesome.com/3b56dc2a5c.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </body>
-  <script
-    src="../../app.js"
-    defer
-  ></script>
 </html>
