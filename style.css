@@ -1583,12 +1583,41 @@ margin: 0px 5px;
     width: 100%;
   }
   .blog-homepage-display2 {
+    /* width: 100%;
+    justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    /* This centers the cards if they don't fill the whole width */
+    justify-content: center; 
+    flex-wrap: wrap;
     width: 100%;
+    margin: 0 auto;
+    /* Gap is cleaner than margins on items for grid layouts */
+    gap: 20px;
+  }
+  .blog-homepage-display a.blog-homepage-display2 a {
+    text-decoration: none;
+    color: #333;
+    /* Flex-grow: 0 (don't stretch to fill)
+       Flex-shrink: 1 (shrink if needed)
+       Flex-basis: auto (let min-width handle it)
+    */
+    flex: 0 1 auto; 
+    min-width: 250px;
+    max-width: 100%; /* Prevents overflow on tiny screens */
+    
+    /* Ensure the card itself stays centered within the link */
+    display: flex;
     justify-content: center;
-  }
-  .blog-homepage-display a {
+}
+.blog-card2 {
     width: 100%;
-  }
+    /* Ensure internal text/images align correctly */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; /* Optional: centers your H3 and P text */
+}
   .blog-slide-head-img img {
     width: 100%;
   }
