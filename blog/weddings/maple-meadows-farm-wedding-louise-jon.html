@@ -1,6 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Maple Meadows Farm Wedding - Louise & Jon | Port Colborne</title>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -72,11 +78,13 @@
       property="og:image:height"
       content="800"
     />
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
+    <link
+      rel="preload"
+      as="image"
+      href="https://www.jessejamesphotography.ca/blog/assets/maple-meadows-lj/maple-meadows-farm-summer-wedding.webp"
+      fetchpriority="high"
     />
+
     <meta
       name="author"
       content="Jesse James Photography"
@@ -114,21 +122,6 @@
       rel="stylesheet"
       href="../../mobile.css"
     />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XNB3J53ZR2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-
-      gtag('config', 'G-XNB3J53ZR2')
-    </script>
-    <title>Maple Meadows Farm Wedding - Louise & Jon | Port Colborne</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -236,18 +229,21 @@
     <div class="blog-slide-head-img">
       <picture>
         <source
+          media="(min-width:650px)"
           srcset="
             ../assets/maple-meadows-lj/maple-meadows-farm-summer-wedding.webp
           "
-          media="(min-width: 500px)"
+        />
+        <source
+          media="(min-width:300px)"
+          srcset="
+            ../assets/maple-meadows-lj/maple-meadows-farm-summer-wedding_m.webp
+          "
         />
         <img
-          src="../assets/maple-meadows-lj/maple-meadows-farm-summer-wedding_m.webp"
-          alt="Late-summer wedding portraits in the gardens at Maple Meadows Farm, Port Colborne"
-          height="500"
-          width="500"
-          loading="lazy"
-          decoding="async"
+          src="../assets/maple-meadows-lj/maple-meadows-farm-summer-wedding.webp"
+          alt="Maple Meadows Farm summer wedding"
+          fetchpriority="high"
         />
       </picture>
     </div>
